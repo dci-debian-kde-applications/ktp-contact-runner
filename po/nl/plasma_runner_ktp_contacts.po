@@ -1,0 +1,88 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-07 05:10+0200\n"
+"PO-Revision-Date: 2012-06-07 12:07+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/contactrunner.cpp:55
+msgid "Finds all IM contacts matching :q:."
+msgstr "Zoek alle IM-contactpersonen die overeenkomen met :q:."
+
+#: src/contactrunner.cpp:56
+msgid ""
+"Finds all contacts matching :q: that are capable of text chats (default "
+"behavior)"
+msgstr ""
+"Zoek alle contactpersonen die overeenkomen met :q: en instaat zijn tot chats "
+"met tekst (standaard gedrag)"
+
+#: src/contactrunner.cpp:57
+msgid ""
+"Finds all contacts matching :q: that are capable of audio call and uses "
+"audio calls as default action."
+msgstr ""
+"Zoek alle contactpersonen die overeenkomen met :q: en in staat zijn tot "
+"oproepen met geluid en deze gebruiken als standaard actie."
+
+#: src/contactrunner.cpp:58
+msgid ""
+"Finds all contacts matching :q: that are capable of video call and uses "
+"video calls as default action."
+msgstr ""
+"Zoek alle contactpersonen die overeenkomen met :q: en in staat zijn tot "
+"oproepen met video en deze gebruiken als standaard actie."
+
+#: src/contactrunner.cpp:59
+msgid ""
+"Finds all contacts matching :q: that are capable of receiving files and "
+"sends file as default action."
+msgstr ""
+"Zoek alle contactpersonen die overeenkomen met :q: en in staat zijn om "
+"bestanden te ontvangen en bestand verzenden als standaard actie hebben."
+
+#: src/contactrunner.cpp:60
+msgid ""
+"Finds all contacts matching :q: that are capable of sharing desktop and sets "
+"desktop sharing as default action."
+msgstr ""
+"Zoek alle contactpersonen die overeenkomen met :q: en in staat zijn om "
+"bureaubladen te delen en bureaublad delen als standaard actie hebben "
+"ingesteld."
+
+#: src/contactrunner.cpp:62
+msgid "Start Chat"
+msgstr "Chat starten"
+
+#: src/contactrunner.cpp:63
+msgid "Start Audio Call"
+msgstr "Geluidsoproep starten"
+
+#: src/contactrunner.cpp:64
+msgid "Start Video Call"
+msgstr "Een video-oproep starten"
+
+#: src/contactrunner.cpp:65
+msgid "Send file(s)"
+msgstr "Bestand(en) verzenden"
+
+#: src/contactrunner.cpp:66
+msgid "Share My Desktop"
+msgstr "Mijn bureaublad delen"
+
+#: src/contactrunner.cpp:329
+#, kde-format
+msgid "Choose files to send to %1"
+msgstr "De te verzenden bestanden naar %1 kiezen"

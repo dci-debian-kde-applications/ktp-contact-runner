@@ -1,0 +1,77 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-07 05:10+0200\n"
+"PO-Revision-Date: 2012-04-20 02:17+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: src/contactrunner.cpp:55
+msgid "Finds all IM contacts matching :q:."
+msgstr "找到所有匹配 :q: 的联系人。"
+
+#: src/contactrunner.cpp:56
+msgid ""
+"Finds all contacts matching :q: that are capable of text chats (default "
+"behavior)"
+msgstr "找到所有匹配 :q: 的可用文字聊天的联系人  (默认行为)"
+
+#: src/contactrunner.cpp:57
+msgid ""
+"Finds all contacts matching :q: that are capable of audio call and uses "
+"audio calls as default action."
+msgstr "找到所有匹配 :q: 的可以语音呼叫的联系人，并将语音呼叫作为默认行为"
+
+#: src/contactrunner.cpp:58
+msgid ""
+"Finds all contacts matching :q: that are capable of video call and uses "
+"video calls as default action."
+msgstr "找到所有匹配 :q: 的可以视频呼叫的联系人，并将视频呼叫作为默认行为"
+
+#: src/contactrunner.cpp:59
+msgid ""
+"Finds all contacts matching :q: that are capable of receiving files and "
+"sends file as default action."
+msgstr "找到所有匹配 :q: 的可以发送文件的联系人，并将发送文件作为默认行为"
+
+#: src/contactrunner.cpp:60
+msgid ""
+"Finds all contacts matching :q: that are capable of sharing desktop and sets "
+"desktop sharing as default action."
+msgstr "找到所有匹配 :q: 的可以共享桌面的联系人，并将共享桌面作为默认行为"
+
+#: src/contactrunner.cpp:62
+msgid "Start Chat"
+msgstr "开始聊天"
+
+#: src/contactrunner.cpp:63
+msgid "Start Audio Call"
+msgstr "开始语音呼叫"
+
+#: src/contactrunner.cpp:64
+msgid "Start Video Call"
+msgstr "开始视频呼叫"
+
+#: src/contactrunner.cpp:65
+msgid "Send file(s)"
+msgstr "发送文件"
+
+#: src/contactrunner.cpp:66
+msgid "Share My Desktop"
+msgstr "共享我的桌面"
+
+#: src/contactrunner.cpp:329
+#, kde-format
+msgid "Choose files to send to %1"
+msgstr "选择要发送给 %1 的文件"

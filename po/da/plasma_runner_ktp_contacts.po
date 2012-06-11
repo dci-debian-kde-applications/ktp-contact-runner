@@ -1,0 +1,87 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Martin Schlander <mschlander@opensuse.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-07 05:10+0200\n"
+"PO-Revision-Date: 2012-04-05 14:24+0200\n"
+"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/contactrunner.cpp:55
+msgid "Finds all IM contacts matching :q:."
+msgstr "Finder alle IM-kontakter som matcher :q:."
+
+#: src/contactrunner.cpp:56
+msgid ""
+"Finds all contacts matching :q: that are capable of text chats (default "
+"behavior)"
+msgstr ""
+"Finder alle kontakter som matcher :q:, som kan føre tekst-chat "
+"(standardopførsel)"
+
+#: src/contactrunner.cpp:57
+msgid ""
+"Finds all contacts matching :q: that are capable of audio call and uses "
+"audio calls as default action."
+msgstr ""
+"Finder alle kontakter som matcher :q:, som kan udføre lydopkald og bruger "
+"lydopkald som standardhandling."
+
+#: src/contactrunner.cpp:58
+msgid ""
+"Finds all contacts matching :q: that are capable of video call and uses "
+"video calls as default action."
+msgstr ""
+"Finder alle kontakter som matcher :q:, som kan udføre videoopkald og bruger "
+"videoopkald som standardhandling."
+
+#: src/contactrunner.cpp:59
+msgid ""
+"Finds all contacts matching :q: that are capable of receiving files and "
+"sends file as default action."
+msgstr ""
+"Finder alle kontakter som matcher :q:, som kan modtage filer og sender fil "
+"som standardhandling."
+
+#: src/contactrunner.cpp:60
+msgid ""
+"Finds all contacts matching :q: that are capable of sharing desktop and sets "
+"desktop sharing as default action."
+msgstr ""
+"Finder alle kontakter som matcher :q:, som kan dele skrivebordet og sætter "
+"deling af skrivebord som standardhandling."
+
+#: src/contactrunner.cpp:62
+msgid "Start Chat"
+msgstr "Start chat"
+
+#: src/contactrunner.cpp:63
+msgid "Start Audio Call"
+msgstr "Start lydopkald"
+
+#: src/contactrunner.cpp:64
+msgid "Start Video Call"
+msgstr "Start videoopkald"
+
+#: src/contactrunner.cpp:65
+msgid "Send file(s)"
+msgstr "Send filer"
+
+#: src/contactrunner.cpp:66
+msgid "Share My Desktop"
+msgstr "Del mit skrivebord"
+
+#: src/contactrunner.cpp:329
+#, kde-format
+msgid "Choose files to send to %1"
+msgstr "Vælg filer der skal sendes til %1"

@@ -1,0 +1,85 @@
+# translation of ktp-contactrunner.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktp-contactrunner\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-07 05:10+0200\n"
+"PO-Revision-Date: 2012-03-18 18:16+0100\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: src/contactrunner.cpp:55
+msgid "Finds all IM contacts matching :q:."
+msgstr "Nájde všetky IM kontakty vyhovujúce :q:."
+
+#: src/contactrunner.cpp:56
+msgid ""
+"Finds all contacts matching :q: that are capable of text chats (default "
+"behavior)"
+msgstr ""
+"Nájde všetky IM kontakty vyhovujúce :q: ktoré umožujú textový rozhovor "
+"(predvolené správanie)"
+
+#: src/contactrunner.cpp:57
+msgid ""
+"Finds all contacts matching :q: that are capable of audio call and uses "
+"audio calls as default action."
+msgstr ""
+"Nájde všetky IM kontakty vyhovujúce :q: ktoré umožňujú zvukový hovor a "
+"používajú zvukové hovory ako predvolenú akciu."
+
+#: src/contactrunner.cpp:58
+msgid ""
+"Finds all contacts matching :q: that are capable of video call and uses "
+"video calls as default action."
+msgstr ""
+"Nájde všetky IM kontakty vyhovujúce :q: ktoré umožňujú video hovor a "
+"používajú video hovory ako predvolenú akciu."
+
+#: src/contactrunner.cpp:59
+msgid ""
+"Finds all contacts matching :q: that are capable of receiving files and "
+"sends file as default action."
+msgstr ""
+"Nájde všetky IM kontakty vyhovujúce :q: ktoré umožňujú prijímanie súborov a "
+"posielajú súbory ako predvolenú akciu."
+
+#: src/contactrunner.cpp:60
+msgid ""
+"Finds all contacts matching :q: that are capable of sharing desktop and sets "
+"desktop sharing as default action."
+msgstr ""
+"Nájde všetky IM kontakty vyhovujúce :q: ktoré umožňujú zdieľať plochu a "
+"nastavia zdieľanie plochy ako predvolenú akciu."
+
+#: src/contactrunner.cpp:62
+msgid "Start Chat"
+msgstr "Začať rozhovor"
+
+#: src/contactrunner.cpp:63
+msgid "Start Audio Call"
+msgstr "Spustiť zvukový hovor"
+
+#: src/contactrunner.cpp:64
+msgid "Start Video Call"
+msgstr "Spustiť video hovor"
+
+#: src/contactrunner.cpp:65
+msgid "Send file(s)"
+msgstr ""
+
+#: src/contactrunner.cpp:66
+msgid "Share My Desktop"
+msgstr "Zdieľať moju plochu"
+
+#: src/contactrunner.cpp:329
+#, kde-format
+msgid "Choose files to send to %1"
+msgstr "Vybrať súbory na odoslanie do %1"

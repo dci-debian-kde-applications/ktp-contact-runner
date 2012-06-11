@@ -1,0 +1,87 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhäll <stefan.asserhall@comhem.se>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-07 05:10+0200\n"
+"PO-Revision-Date: 2012-03-19 18:29+0100\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/contactrunner.cpp:55
+msgid "Finds all IM contacts matching :q:."
+msgstr "Söker efter alla direktmeddelandekontakter som motsvarar :q:."
+
+#: src/contactrunner.cpp:56
+msgid ""
+"Finds all contacts matching :q: that are capable of text chats (default "
+"behavior)"
+msgstr ""
+"Söker efter alla kontakter som motsvarar :q: och klarar av textchatt "
+"(normalbeteende)"
+
+#: src/contactrunner.cpp:57
+msgid ""
+"Finds all contacts matching :q: that are capable of audio call and uses "
+"audio calls as default action."
+msgstr ""
+"Söker efter alla kontakter som motsvarar :q: och klarar av röstsamtal och "
+"använder röstsamtal som normalvärde."
+
+#: src/contactrunner.cpp:58
+msgid ""
+"Finds all contacts matching :q: that are capable of video call and uses "
+"video calls as default action."
+msgstr ""
+"Söker efter alla kontakter som motsvarar :q: och klarar av videosamtal och "
+"använder videosamtal som normalvärde."
+
+#: src/contactrunner.cpp:59
+msgid ""
+"Finds all contacts matching :q: that are capable of receiving files and "
+"sends file as default action."
+msgstr ""
+"Söker efter alla kontakter som motsvarar :q: och klarar av att ta emot och "
+"skicka filer som normalvärde."
+
+#: src/contactrunner.cpp:60
+msgid ""
+"Finds all contacts matching :q: that are capable of sharing desktop and sets "
+"desktop sharing as default action."
+msgstr ""
+"Söker efter alla kontakter som motsvarar :q: och klarar av att dela "
+"skrivbord och anger skrivbordsdelning som normalvärde."
+
+#: src/contactrunner.cpp:62
+msgid "Start Chat"
+msgstr "Börja chatta"
+
+#: src/contactrunner.cpp:63
+msgid "Start Audio Call"
+msgstr "Starta röstsamtal"
+
+#: src/contactrunner.cpp:64
+msgid "Start Video Call"
+msgstr "Starta videosamtal"
+
+#: src/contactrunner.cpp:65
+msgid "Send file(s)"
+msgstr "Skicka fil(er)"
+
+#: src/contactrunner.cpp:66
+msgid "Share My Desktop"
+msgstr "Dela mitt skrivbord"
+
+#: src/contactrunner.cpp:329
+#, kde-format
+msgid "Choose files to send to %1"
+msgstr "Välj filer att skicka till %1"
