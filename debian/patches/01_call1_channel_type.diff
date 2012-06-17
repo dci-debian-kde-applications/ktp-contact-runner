@@ -1,0 +1,48 @@
+commit 0c2e5f1a1898cc9686ed2a379c3a7cb96988546d
+Author: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Date:   Sun Jun 17 19:43:43 2012 +0300
+
+    Request calls of the Call1 channel type
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index bef5271..6210c85 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -8,7 +8,7 @@ set(CMAKE_MODULE_PATH
+ 
+ # Find the required Libaries
+ find_package(KDE4 REQUIRED)
+-find_package(TelepathyQt4 REQUIRED)
++find_package(TelepathyQt4 0.9.1 REQUIRED)
+ find_package(KTp REQUIRED)
+ include(KDE4Defaults)
+ 
+diff --git a/src/contactrunner.cpp b/src/contactrunner.cpp
+index 34f0e19..3b4b0f2 100644
+--- a/src/contactrunner.cpp
++++ b/src/contactrunner.cpp
+@@ -309,16 +309,17 @@ void ContactRunner::run(const Plasma::RunnerContext &context, const Plasma::Quer
+ 
+     } else if (match.selectedAction() == action("start-audio-call")) {
+ 
+-        account->ensureStreamedMediaAudioCall(contact,
+-                                              QDateTime::currentDateTime(),
+-                                              "org.freedesktop.Telepathy.Client.KTp.CallUi");
++        account->ensureAudioCall(contact,
++                QLatin1String("audio"),
++                QDateTime::currentDateTime(),
++                QLatin1String("org.freedesktop.Telepathy.Client.KTp.CallUi"));
+ 
+     } else if (match.selectedAction() == action("start-video-call")) {
+ 
+-        account->ensureStreamedMediaVideoCall(contact,
+-                                              true,
+-                                              QDateTime::currentDateTime(),
+-                                              "org.freedesktop.Telepathy.Client.KTp.CallUi");
++        account->ensureAudioVideoCall(contact,
++                QLatin1String("audio"), QLatin1String("video"),
++                QDateTime::currentDateTime(),
++                QLatin1String("org.freedesktop.Telepathy.Client.KTp.CallUi"));
+ 
+     } else if (match.selectedAction() == action("start-file-transfer")) {
+ 

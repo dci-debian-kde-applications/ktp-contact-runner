@@ -1,0 +1,35 @@
+Source: ktp-contact-runner
+Section: kde
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: debhelper (>= 9),
+ cmake,
+ pkg-kde-tools,
+ libtelepathy-qt4-dev (>= 0.9.1),
+ libktpcommoninternalsprivate-dev (>= 0.4.0)
+Standards-Version: 3.9.3
+Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-contact-runner
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-contact-runner.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-contact-runner.git
+
+Package: plasma-runner-telepathy-contact
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= 0.4)
+Recommends: kde-telepathy
+Description: Telepathy Contact KRunner plugin
+ This package provides a KRunner plugin which allows you to execute actions
+ like start a text chat or start an audio/video call with your Telepathy
+ IM contacts.
+ .
+ This package is not meant to be used standalone. It is recommended
+ to install the kde-telepathy metapackage instead.
+
+Package: plasma-runner-telepathy-contact-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: plasma-runner-telepathy-contact (= ${binary:Version}), ${misc:Depends}
+Description: Telepathy Contact KRunner plugin - debug symbols
+ This package provides the debug symbols for the Telepathy Contact
+ KRunner plugin.
