@@ -1,0 +1,199 @@
+# translation of plasma_runner_ktp_contacts.po to Français
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Joëlle Cornavin <jcorn@free.fr>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_ktp_contacts\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2012-08-06 23:31+0200\n"
+"Last-Translator: Joëlle Cornavin <jcorn@free.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/contactrunner.cpp:66
+msgid "Finds all IM contacts matching :q:."
+msgstr "Cherche tous les contacts de MI correspondant à :q:."
+
+#: src/contactrunner.cpp:67
+msgid ""
+"Finds all contacts matching :q: that are capable of text chats (default "
+"behavior)"
+msgstr ""
+"Cherche tous les contacts correspondant à :q:, capables de mener des "
+"discussions sous forme de texte (comportement par défaut)"
+
+#: src/contactrunner.cpp:68
+msgid ""
+"Finds all contacts matching :q: that are capable of audio call and uses "
+"audio calls as default action."
+msgstr ""
+"Cherche tous les contatcts correspondant à :q:, capables de répondre à des "
+"appels audio et utilise des appels audio comme action par défaut."
+
+#: src/contactrunner.cpp:69
+msgid ""
+"Finds all contacts matching :q: that are capable of video call and uses "
+"video calls as default action."
+msgstr ""
+"Cherche tous les contacts correspondant à :q:, capables de répondre à des "
+"appels vidéo et utilise des appels vidéo comme action par défaut."
+
+#: src/contactrunner.cpp:70
+msgid ""
+"Finds all contacts matching :q: that are capable of receiving files and "
+"sends file as default action."
+msgstr ""
+"Cherche tous les contacts correspondant à:q:, capables de de recevoir des "
+"fichier et envoie un fichier comme action par défaut."
+
+#: src/contactrunner.cpp:71
+msgid ""
+"Finds all contacts matching :q: that are capable of sharing desktop and sets "
+"desktop sharing as default action."
+msgstr ""
+"Cherche tous les contacts correspondant à :q:, capables de partager un "
+"bureau et définit le partage de bureau comme action par défaut."
+
+#: src/contactrunner.cpp:74
+msgid "Open the log viewer for :q:"
+msgstr "Ouvrir l'afficheur du journal pour :q:"
+
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+msgctxt "A keyword to change IM status"
+msgid "im"
+msgstr "mi"
+
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+msgctxt "A keyword to change IM status"
+msgid "status"
+msgstr "état"
+
+#: src/contactrunner.cpp:79
+msgid "Change IM status"
+msgstr "Changer l'état de la MI"
+
+#: src/contactrunner.cpp:81 src/contactrunner.cpp:87
+msgctxt "Search term description"
+msgid "status"
+msgstr "état"
+
+#: src/contactrunner.cpp:84 src/contactrunner.cpp:86
+msgctxt "Description of a search term, please keep the brackets"
+msgid "<status message>"
+msgstr "<message d'état>"
+
+#: src/contactrunner.cpp:85
+msgid "Change IM status and set status message."
+msgstr "Changez l'état de la MI et définissez le message d'état."
+
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+msgctxt "A command to connect all IM accounts"
+msgid "connect"
+msgstr "connecter"
+
+#: src/contactrunner.cpp:91
+msgid "Connect all IM accounts"
+msgstr "Connecter tous les comptes de MI"
+
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+msgctxt "A command to disconnect all IM accounts"
+msgid "disconnect"
+msgstr "déconnecter"
+
+#: src/contactrunner.cpp:93
+msgid "Disconnect all IM accounts"
+msgstr "Déconnecter tous les comptes de MI"
+
+#: src/contactrunner.cpp:95
+msgid "Start Chat"
+msgstr "Démarrer une discussion"
+
+#: src/contactrunner.cpp:96
+msgid "Start Audio Call"
+msgstr "Démarrer un appel audio"
+
+#: src/contactrunner.cpp:97
+msgid "Start Video Call"
+msgstr "Démarrer un appel vidéo"
+
+#: src/contactrunner.cpp:98
+msgid "Send file(s)"
+msgstr "Envoyer un ou des fichiers"
+
+#: src/contactrunner.cpp:99
+msgid "Share My Desktop"
+msgstr "Partager mon bureau"
+
+#: src/contactrunner.cpp:102
+msgid "Open the log viewer"
+msgstr "Ouvrir l'afficheur du journal"
+
+#: src/contactrunner.cpp:239
+#, kde-format
+msgid "Choose files to send to %1"
+msgstr "Choisir les fichiers à envoyer à %1"
+
+#: src/contactrunner.cpp:429
+msgctxt "IM presence"
+msgid "online"
+msgstr "connecté(e)"
+
+#: src/contactrunner.cpp:433
+msgctxt "IM presence"
+msgid "away"
+msgstr "absent(e)"
+
+#: src/contactrunner.cpp:437
+msgctxt "IM presence"
+msgid "busy"
+msgstr "occupé(e)"
+
+#: src/contactrunner.cpp:441
+msgctxt "IM presence"
+msgid "hidden"
+msgstr "caché(e)"
+
+#: src/contactrunner.cpp:445
+msgctxt "IM presence"
+msgid "offline"
+msgstr "déconnecté(e)"
+
+#: src/contactrunner.cpp:462
+msgctxt "Description of runner action"
+msgid "Set IM status to online"
+msgstr "Associer l'état de la MI à connecté"
+
+#: src/contactrunner.cpp:467
+msgctxt "Description of runner action"
+msgid "Set IM status to away"
+msgstr "Associer l'état de la MI à absent"
+
+#: src/contactrunner.cpp:472
+msgctxt "Description of runner action"
+msgid "Set IM status to busy"
+msgstr "Associer l'état de la MI à occupé"
+
+#: src/contactrunner.cpp:477
+msgctxt "Description of runner action"
+msgid "Set IM status to hidden"
+msgstr "Associer l'état de la MI à caché"
+
+#: src/contactrunner.cpp:482
+msgctxt "Description of runner action"
+msgid "Set IM status to offline"
+msgstr "Associer l'état de la MI à déconnecté"
+
+#: src/contactrunner.cpp:489
+#, kde-format
+msgid "Status message: %1"
+msgstr "Message d'état : %1"
+
+#~ msgid "A keyword to change IM status"
+#~ msgstr "Un mot clé pour changer l'état de la MI"

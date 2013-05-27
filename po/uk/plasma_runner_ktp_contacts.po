@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-07 05:10+0200\n"
-"PO-Revision-Date: 2012-06-07 09:05+0300\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2012-08-04 08:26+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,11 +18,11 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: src/contactrunner.cpp:55
+#: src/contactrunner.cpp:66
 msgid "Finds all IM contacts matching :q:."
 msgstr "Шукає всі записи контактів обміну повідомленнями за ключем :q:."
 
-#: src/contactrunner.cpp:56
+#: src/contactrunner.cpp:67
 msgid ""
 "Finds all contacts matching :q: that are capable of text chats (default "
 "behavior)"
@@ -30,7 +30,7 @@ msgstr ""
 "Шукає всі записи контактів за ключем :q:, спілкуватися з якими можна у "
 "текстовому режимі (типова поведінка)"
 
-#: src/contactrunner.cpp:57
+#: src/contactrunner.cpp:68
 msgid ""
 "Finds all contacts matching :q: that are capable of audio call and uses "
 "audio calls as default action."
@@ -38,7 +38,7 @@ msgstr ""
 "Шукає всі записи контактів за ключем :q:, спілкуватися з якими можна у "
 "звуковому режимі, і використовує звукові дзвінки як типову дію."
 
-#: src/contactrunner.cpp:58
+#: src/contactrunner.cpp:69
 msgid ""
 "Finds all contacts matching :q: that are capable of video call and uses "
 "video calls as default action."
@@ -46,7 +46,7 @@ msgstr ""
 "Шукає всі записи контактів за ключем :q:, спілкуватися з якими можна у "
 "відеорежимі, і використовує відеодзвінки як типову дію."
 
-#: src/contactrunner.cpp:59
+#: src/contactrunner.cpp:70
 msgid ""
 "Finds all contacts matching :q: that are capable of receiving files and "
 "sends file as default action."
@@ -54,7 +54,7 @@ msgstr ""
 "Шукає всі записи контактів за ключем :q:, які здатні отримувати файли, і "
 "типово надсилає файл."
 
-#: src/contactrunner.cpp:60
+#: src/contactrunner.cpp:71
 msgid ""
 "Finds all contacts matching :q: that are capable of sharing desktop and sets "
 "desktop sharing as default action."
@@ -62,27 +62,143 @@ msgstr ""
 "Шукає всі записи контактів за ключем :q:, які здатні до спільного "
 "користування стільницею, і типово встановлює режим спільного використання."
 
-#: src/contactrunner.cpp:62
+#: src/contactrunner.cpp:74
+msgid "Open the log viewer for :q:"
+msgstr "Відкрити панель перегляду журналу для :q:"
+
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+msgctxt "A keyword to change IM status"
+msgid "im"
+msgstr "оп"
+
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+msgctxt "A keyword to change IM status"
+msgid "status"
+msgstr "стан"
+
+#: src/contactrunner.cpp:79
+msgid "Change IM status"
+msgstr "Змінити стан у мережі обміну повідомленнями"
+
+#: src/contactrunner.cpp:81 src/contactrunner.cpp:87
+msgctxt "Search term description"
+msgid "status"
+msgstr "стан"
+
+#: src/contactrunner.cpp:84 src/contactrunner.cpp:86
+msgctxt "Description of a search term, please keep the brackets"
+msgid "<status message>"
+msgstr "<повідомлення щодо стану>"
+
+#: src/contactrunner.cpp:85
+msgid "Change IM status and set status message."
+msgstr ""
+"Змінити стан у мережі обміну повідомленнями і встановити повідомлення щодо "
+"стану."
+
+# Краще без апострофа
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+msgctxt "A command to connect all IM accounts"
+msgid "connect"
+msgstr "увійти"
+
+#: src/contactrunner.cpp:91
+msgid "Connect all IM accounts"
+msgstr "З’єднатися з усіма обліковими записами обміну повідомленнями"
+
+# Краще без апострофа
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+msgctxt "A command to disconnect all IM accounts"
+msgid "disconnect"
+msgstr "вийти"
+
+#: src/contactrunner.cpp:93
+msgid "Disconnect all IM accounts"
+msgstr "Від’єднатися від усіх облікових записів обміну повідомленнями"
+
+#: src/contactrunner.cpp:95
 msgid "Start Chat"
 msgstr "Почати спілкування"
 
-#: src/contactrunner.cpp:63
+#: src/contactrunner.cpp:96
 msgid "Start Audio Call"
 msgstr "Почати аудіоспілкування"
 
-#: src/contactrunner.cpp:64
+#: src/contactrunner.cpp:97
 msgid "Start Video Call"
 msgstr "Почати відеоспілкування"
 
-#: src/contactrunner.cpp:65
+#: src/contactrunner.cpp:98
 msgid "Send file(s)"
 msgstr "Надіслати файли"
 
-#: src/contactrunner.cpp:66
+#: src/contactrunner.cpp:99
 msgid "Share My Desktop"
 msgstr "Надати доступ до моєї стільниці"
 
-#: src/contactrunner.cpp:329
+#: src/contactrunner.cpp:102
+msgid "Open the log viewer"
+msgstr "Відкрити панель перегляду журналу"
+
+#: src/contactrunner.cpp:239
 #, kde-format
 msgid "Choose files to send to %1"
 msgstr "Виберіть файли, які слід надіслати %1"
+
+#: src/contactrunner.cpp:429
+msgctxt "IM presence"
+msgid "online"
+msgstr "у мережі"
+
+#: src/contactrunner.cpp:433
+msgctxt "IM presence"
+msgid "away"
+msgstr "відсутній"
+
+#: src/contactrunner.cpp:437
+msgctxt "IM presence"
+msgid "busy"
+msgstr "зайнятий"
+
+#: src/contactrunner.cpp:441
+msgctxt "IM presence"
+msgid "hidden"
+msgstr "прихований"
+
+#: src/contactrunner.cpp:445
+msgctxt "IM presence"
+msgid "offline"
+msgstr "поза мережею"
+
+#: src/contactrunner.cpp:462
+msgctxt "Description of runner action"
+msgid "Set IM status to online"
+msgstr "Встановити стан «У мережі»"
+
+#: src/contactrunner.cpp:467
+msgctxt "Description of runner action"
+msgid "Set IM status to away"
+msgstr "Встановити стан «Відсутній»"
+
+#: src/contactrunner.cpp:472
+msgctxt "Description of runner action"
+msgid "Set IM status to busy"
+msgstr "Встановити стан «Зайнятий»"
+
+#: src/contactrunner.cpp:477
+msgctxt "Description of runner action"
+msgid "Set IM status to hidden"
+msgstr "Встановити стан «Прихований»"
+
+#: src/contactrunner.cpp:482
+msgctxt "Description of runner action"
+msgid "Set IM status to offline"
+msgstr "Встановити стан «Поза мережею»"
+
+#: src/contactrunner.cpp:489
+#, kde-format
+msgid "Status message: %1"
+msgstr "Повідомлення про стан: %1"
+
+#~ msgid "A keyword to change IM status"
+#~ msgstr "Ключове слово для зміни стану у мережах обміну повідомленнями"
