@@ -2,12 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Marcus Gama <marcus.gama@gmail.com>, 2012.
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-07 05:10+0200\n"
-"PO-Revision-Date: 2012-06-07 06:20-0300\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2012-08-05 11:00-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
 "Language: pt_BR\n"
@@ -15,13 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
-#: src/contactrunner.cpp:55
+#: src/contactrunner.cpp:66
 msgid "Finds all IM contacts matching :q:."
 msgstr "Localiza todos os contatos de MI que correspondam a :q:."
 
-#: src/contactrunner.cpp:56
+#: src/contactrunner.cpp:67
 msgid ""
 "Finds all contacts matching :q: that are capable of text chats (default "
 "behavior)"
@@ -29,7 +30,7 @@ msgstr ""
 "Localiza todos os contatos que correspondam a :q: que possam realizar "
 "conversas em texto (comportamento padrão)"
 
-#: src/contactrunner.cpp:57
+#: src/contactrunner.cpp:68
 msgid ""
 "Finds all contacts matching :q: that are capable of audio call and uses "
 "audio calls as default action."
@@ -37,7 +38,7 @@ msgstr ""
 "Localiza todos os contatos que correspondam a :q: que possam realizar "
 "chamadas de áudio e as usem por padrão."
 
-#: src/contactrunner.cpp:58
+#: src/contactrunner.cpp:69
 msgid ""
 "Finds all contacts matching :q: that are capable of video call and uses "
 "video calls as default action."
@@ -45,7 +46,7 @@ msgstr ""
 "Localiza todos os contatos que correspondam a :q: que possam realizar "
 "chamadas de vídeo e as usem por padrão."
 
-#: src/contactrunner.cpp:59
+#: src/contactrunner.cpp:70
 msgid ""
 "Finds all contacts matching :q: that are capable of receiving files and "
 "sends file as default action."
@@ -53,7 +54,7 @@ msgstr ""
 "Localiza todos os contatos que correspondam a :q: que possam receber "
 "arquivos e enviar um arquivo como ação padrão."
 
-#: src/contactrunner.cpp:60
+#: src/contactrunner.cpp:71
 msgid ""
 "Finds all contacts matching :q: that are capable of sharing desktop and sets "
 "desktop sharing as default action."
@@ -61,27 +62,139 @@ msgstr ""
 "Localiza todos os contatos que correspondam a :q: que possam compartilhar a "
 "área de trabalho e a usem como ação padrão."
 
-#: src/contactrunner.cpp:62
+#: src/contactrunner.cpp:74
+msgid "Open the log viewer for :q:"
+msgstr "Abre o visualizador de registros para o :q:"
+
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+msgctxt "A keyword to change IM status"
+msgid "im"
+msgstr "mi"
+
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+msgctxt "A keyword to change IM status"
+msgid "status"
+msgstr "status"
+
+#: src/contactrunner.cpp:79
+msgid "Change IM status"
+msgstr "Alterar o status das mensagens instantâneas"
+
+#: src/contactrunner.cpp:81 src/contactrunner.cpp:87
+msgctxt "Search term description"
+msgid "status"
+msgstr "status"
+
+#: src/contactrunner.cpp:84 src/contactrunner.cpp:86
+msgctxt "Description of a search term, please keep the brackets"
+msgid "<status message>"
+msgstr "<mensagem de status>"
+
+#: src/contactrunner.cpp:85
+msgid "Change IM status and set status message."
+msgstr "Altera o status das mensagens instantâneas e define uma mensagem."
+
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+msgctxt "A command to connect all IM accounts"
+msgid "connect"
+msgstr "conectar"
+
+#: src/contactrunner.cpp:91
+msgid "Connect all IM accounts"
+msgstr "Conecta todas as contas de mensagens instantâneas"
+
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+msgctxt "A command to disconnect all IM accounts"
+msgid "disconnect"
+msgstr "desconectar"
+
+#: src/contactrunner.cpp:93
+msgid "Disconnect all IM accounts"
+msgstr "Desconecta todas as contas de mensagens instantâneas"
+
+#: src/contactrunner.cpp:95
 msgid "Start Chat"
 msgstr "Iniciar bate-papo"
 
-#: src/contactrunner.cpp:63
+#: src/contactrunner.cpp:96
 msgid "Start Audio Call"
 msgstr "Iniciar chamada de áudio"
 
-#: src/contactrunner.cpp:64
+#: src/contactrunner.cpp:97
 msgid "Start Video Call"
 msgstr "Iniciar chamada de vídeo"
 
-#: src/contactrunner.cpp:65
+#: src/contactrunner.cpp:98
 msgid "Send file(s)"
 msgstr "Enviar arquivo(s)"
 
-#: src/contactrunner.cpp:66
+#: src/contactrunner.cpp:99
 msgid "Share My Desktop"
 msgstr "Compartilhar minha área de trabalho"
 
-#: src/contactrunner.cpp:329
+#: src/contactrunner.cpp:102
+msgid "Open the log viewer"
+msgstr "Abrir o visualizador de registros"
+
+#: src/contactrunner.cpp:239
 #, kde-format
 msgid "Choose files to send to %1"
 msgstr "Escolha os arquivos a enviar para %1"
+
+#: src/contactrunner.cpp:429
+msgctxt "IM presence"
+msgid "online"
+msgstr "conectado"
+
+#: src/contactrunner.cpp:433
+msgctxt "IM presence"
+msgid "away"
+msgstr "ausente"
+
+#: src/contactrunner.cpp:437
+msgctxt "IM presence"
+msgid "busy"
+msgstr "ocupado"
+
+#: src/contactrunner.cpp:441
+msgctxt "IM presence"
+msgid "hidden"
+msgstr "oculto"
+
+#: src/contactrunner.cpp:445
+msgctxt "IM presence"
+msgid "offline"
+msgstr "desconectado"
+
+#: src/contactrunner.cpp:462
+msgctxt "Description of runner action"
+msgid "Set IM status to online"
+msgstr "Define o status das mensagens instantâneas para conectado"
+
+#: src/contactrunner.cpp:467
+msgctxt "Description of runner action"
+msgid "Set IM status to away"
+msgstr "Define o status das mensagens instantâneas para ausente"
+
+#: src/contactrunner.cpp:472
+msgctxt "Description of runner action"
+msgid "Set IM status to busy"
+msgstr "Define o status das mensagens instantâneas para ocupado"
+
+#: src/contactrunner.cpp:477
+msgctxt "Description of runner action"
+msgid "Set IM status to hidden"
+msgstr "Define o status das mensagens instantâneas para oculto"
+
+#: src/contactrunner.cpp:482
+msgctxt "Description of runner action"
+msgid "Set IM status to offline"
+msgstr "Define o status das mensagens instantâneas para desconectado"
+
+#: src/contactrunner.cpp:489
+#, kde-format
+msgid "Status message: %1"
+msgstr "Mensagem de status: %1"
+
+#~ msgid "A keyword to change IM status"
+#~ msgstr "Palavra-chave para alterar o status das mensagens instantâneas"

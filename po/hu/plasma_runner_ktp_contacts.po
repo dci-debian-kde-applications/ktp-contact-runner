@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2012.
+# Balázs Úr <urbalazs@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-07 05:10+0200\n"
-"PO-Revision-Date: 2012-03-17 23:25+0100\n"
-"Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2012-08-18 17:20+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -17,12 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: src/contactrunner.cpp:55
+#: src/contactrunner.cpp:66
 msgid "Finds all IM contacts matching :q:."
 msgstr ""
 "A(z) :q: kifejezésre illeszkedő azonnali üzenetküldési partnerek keresése."
 
-#: src/contactrunner.cpp:56
+#: src/contactrunner.cpp:67
 msgid ""
 "Finds all contacts matching :q: that are capable of text chats (default "
 "behavior)"
@@ -30,7 +31,7 @@ msgstr ""
 "A(z) :q: kifejezésre illeszkedő partnerek keresése, akik szöveges csevegésre "
 "képesek (alapértelmezett működés)"
 
-#: src/contactrunner.cpp:57
+#: src/contactrunner.cpp:68
 msgid ""
 "Finds all contacts matching :q: that are capable of audio call and uses "
 "audio calls as default action."
@@ -38,7 +39,7 @@ msgstr ""
 "A(z) :q: kifejezésre illeszkedő partnerek keresése, akik képesek hanghívásra "
 "és ez az alapértelmezett műveletük."
 
-#: src/contactrunner.cpp:58
+#: src/contactrunner.cpp:69
 msgid ""
 "Finds all contacts matching :q: that are capable of video call and uses "
 "video calls as default action."
@@ -46,7 +47,7 @@ msgstr ""
 "A(z) :q: kifejezésre illeszkedő partnerek keresése, akik képesek "
 "videohívásra és ez az alapértelmezett műveletük."
 
-#: src/contactrunner.cpp:59
+#: src/contactrunner.cpp:70
 msgid ""
 "Finds all contacts matching :q: that are capable of receiving files and "
 "sends file as default action."
@@ -54,7 +55,7 @@ msgstr ""
 "A(z) :q: kifejezésre illeszkedő partnerek keresése, akik képesek "
 "fájlfogadásra és ez az alapértelmezett műveletük."
 
-#: src/contactrunner.cpp:60
+#: src/contactrunner.cpp:71
 msgid ""
 "Finds all contacts matching :q: that are capable of sharing desktop and sets "
 "desktop sharing as default action."
@@ -62,27 +63,136 @@ msgstr ""
 "A(z) :q: kifejezésre illeszkedő partnerek keresése, akik képesek "
 "asztalmegosztásra és ez az alapértelmezett műveletük."
 
-#: src/contactrunner.cpp:62
+#: src/contactrunner.cpp:74
+msgid "Open the log viewer for :q:"
+msgstr "Naplómegjelenítő megnyitása: :q:"
+
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+msgctxt "A keyword to change IM status"
+msgid "im"
+msgstr "azonnali üzenet"
+
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+msgctxt "A keyword to change IM status"
+msgid "status"
+msgstr "állapot"
+
+#: src/contactrunner.cpp:79
+msgid "Change IM status"
+msgstr "Azonnali üzenet állapot módosítása"
+
+#: src/contactrunner.cpp:81 src/contactrunner.cpp:87
+msgctxt "Search term description"
+msgid "status"
+msgstr "állapot"
+
+#: src/contactrunner.cpp:84 src/contactrunner.cpp:86
+msgctxt "Description of a search term, please keep the brackets"
+msgid "<status message>"
+msgstr "<status message>"
+
+#: src/contactrunner.cpp:85
+msgid "Change IM status and set status message."
+msgstr "Az azonnali üzenet állapot módosítása és állapotüzenet beállítása."
+
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+msgctxt "A command to connect all IM accounts"
+msgid "connect"
+msgstr "csatlakozás"
+
+#: src/contactrunner.cpp:91
+msgid "Connect all IM accounts"
+msgstr "Kapcsolódás az összes azonnali üzenet fiókkal"
+
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+msgctxt "A command to disconnect all IM accounts"
+msgid "disconnect"
+msgstr "szétkapcsolás"
+
+#: src/contactrunner.cpp:93
+msgid "Disconnect all IM accounts"
+msgstr "Szétkapcsolás az összes azonnali üzenet fiókkal"
+
+#: src/contactrunner.cpp:95
 msgid "Start Chat"
 msgstr "Csevegés indítása"
 
-#: src/contactrunner.cpp:63
+#: src/contactrunner.cpp:96
 msgid "Start Audio Call"
 msgstr "Hanghívás indítása"
 
-#: src/contactrunner.cpp:64
+#: src/contactrunner.cpp:97
 msgid "Start Video Call"
 msgstr "Videohívás indítása"
 
-#: src/contactrunner.cpp:65
+#: src/contactrunner.cpp:98
 msgid "Send file(s)"
-msgstr ""
+msgstr "Fájlok küldése"
 
-#: src/contactrunner.cpp:66
+#: src/contactrunner.cpp:99
 msgid "Share My Desktop"
 msgstr "Az asztalom megosztása"
 
-#: src/contactrunner.cpp:329
+#: src/contactrunner.cpp:102
+msgid "Open the log viewer"
+msgstr "Naplómegjelenítő megnyitása"
+
+#: src/contactrunner.cpp:239
 #, kde-format
 msgid "Choose files to send to %1"
 msgstr "Válassza ki a(z) %1 partnernek küldendő fájlokat"
+
+#: src/contactrunner.cpp:429
+msgctxt "IM presence"
+msgid "online"
+msgstr "elérhető"
+
+#: src/contactrunner.cpp:433
+msgctxt "IM presence"
+msgid "away"
+msgstr "távol"
+
+#: src/contactrunner.cpp:437
+msgctxt "IM presence"
+msgid "busy"
+msgstr "elfoglalt"
+
+#: src/contactrunner.cpp:441
+msgctxt "IM presence"
+msgid "hidden"
+msgstr "rejtett"
+
+#: src/contactrunner.cpp:445
+msgctxt "IM presence"
+msgid "offline"
+msgstr "nem érhető el"
+
+#: src/contactrunner.cpp:462
+msgctxt "Description of runner action"
+msgid "Set IM status to online"
+msgstr "Azonnali üzenet állapot beállítása elérhetőre"
+
+#: src/contactrunner.cpp:467
+msgctxt "Description of runner action"
+msgid "Set IM status to away"
+msgstr "Azonnali üzenet állapot beállítása távollétre"
+
+#: src/contactrunner.cpp:472
+msgctxt "Description of runner action"
+msgid "Set IM status to busy"
+msgstr "Azonnali üzenet állapot beállítása elfoglaltra"
+
+#: src/contactrunner.cpp:477
+msgctxt "Description of runner action"
+msgid "Set IM status to hidden"
+msgstr "Azonnali üzenet állapot beállítása rejtettre"
+
+#: src/contactrunner.cpp:482
+msgctxt "Description of runner action"
+msgid "Set IM status to offline"
+msgstr "Azonnali üzenet állapot beállítása nem elérhetőre"
+
+#: src/contactrunner.cpp:489
+#, kde-format
+msgid "Status message: %1"
+msgstr "Állapotüzenet: %1"
