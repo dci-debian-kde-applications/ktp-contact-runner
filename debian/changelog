@@ -8,5 +8,6 @@ ktp-contact-runner (0.6.2-1) UNRELEASED; urgency=low
   * Imported Upstream version 0.6.2
   * Bump ktp-common-internal and kde-telepathy-data dependencies to 0.6.2
   * Set Uploaders to Diane Trout and Michał Zając
+  * Update Standards-Version to 3.9.4. No changes needed.
 
- -- Diane Trout <diane@ghic.org>  Mon, 27 May 2013 00:31:11 -0700
+ -- Diane Trout <diane@ghic.org>  Tue, 09 Jul 2013 22:33:17 -0700
