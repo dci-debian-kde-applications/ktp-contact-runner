@@ -4,7 +4,7 @@ ktp-contact-runner (0.6.2-1) UNRELEASED; urgency=low
   * Initial release.
 
   [ Diane Trout ]
-  * KDE Telepathy is now in stable release.
+  * Update watch file.
   * Imported Upstream version 0.6.2
   * Bump ktp-common-internal and kde-telepathy-data dependencies to 0.6.2
   * Set Uploaders to Diane Trout and Michał Zając
