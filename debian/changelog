@@ -1,4 +1,4 @@
-ktp-contact-runner (0.6.3-1) UNRELEASED; urgency=low
+ktp-contact-runner (0.6.3-1) unstable; urgency=low
 
   [ George Kiagiadakis ]
   * Initial release.
@@ -12,9 +12,9 @@ ktp-contact-runner (0.6.3-1) UNRELEASED; urgency=low
   * Remove 01_call1_channel_type.diff, applied upstream.
   * Initial release. (Closes: #716665)
 
-  [ Mark Purcell ]
+  [ Mark Purcell ] 
   * Import Upstream version 0.6.3
   * Add myself to Uploaders
   * Update Build-Depends: libktpcommoninternalsprivate-dev (>= 0.6.3)
 
- -- Diane Trout <diane@ghic.org>  Tue, 09 Jul 2013 22:33:17 -0700
+ -- Mark Purcell <msp@debian.org>  Sat, 10 Aug 2013 21:44:11 +1000
