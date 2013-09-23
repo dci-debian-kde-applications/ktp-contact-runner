@@ -11,6 +11,7 @@ ktp-contact-runner (0.6.3-1) unstable; urgency=low
   * Update Standards-Version to 3.9.4. No changes needed.
   * Remove 01_call1_channel_type.diff, applied upstream.
   * Initial release. (Closes: #716665)
+  * Update debian/copyright, the package is actually LGPL 2.1+
 
   [ Mark Purcell ] 
   * Import Upstream version 0.6.3
