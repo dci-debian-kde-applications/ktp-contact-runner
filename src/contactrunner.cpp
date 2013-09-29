@@ -337,9 +337,22 @@ void ContactRunner::matchContacts(Plasma::RunnerContext &context)
                 continue;
             }
 
-            const QString &name = contact->alias();
-            if (!name.contains(contactQuery, Qt::CaseInsensitive)) {
-                continue;
+            const QString &normalized = contact->alias().normalized(QString::NormalizationForm_D);
+            QString t;
+            // Strip diacritics, umlauts etc
+            Q_FOREACH (const QChar &c, normalized) {
+                if (c.category() != QChar::Mark_NonSpacing
+                        && c.category() != QChar::Mark_SpacingCombining
+                        && c.category() != QChar::Mark_Enclosing) {
+                    t.append(c);
+                }
+            }
+
+            if (!t.contains(contactQuery, Qt::CaseInsensitive)) {
+                const QString &id = contact->id();
+                if (!id.contains(contactQuery, Qt::CaseInsensitive)) {
+                    continue;
+                }
             }
 
             MatchInfo data;
@@ -347,7 +360,7 @@ void ContactRunner::matchContacts(Plasma::RunnerContext &context)
             data.contact = contact;
             match.setData(qVariantFromValue(data));
 
-            match.setText(name + QLatin1String(" (") +  account->displayName() + ')');
+            match.setText(contact->alias() + QLatin1String(" (") +  account->displayName() + ')');
             match.setType(Plasma::QueryMatch::ExactMatch);
 
             KTp::Presence presence(contact->presence());
@@ -377,7 +390,7 @@ void ContactRunner::matchContacts(Plasma::RunnerContext &context)
             if (!iconFile.isEmpty() && QFile::exists(iconFile)) {
                 match.setIcon(QIcon(iconFile));
             } else {
-                match.setIcon(presence.icon());
+                match.setIcon(QIcon::fromTheme(QLatin1String("im-user")));
             }
 
             if (!presence.statusMessage().isEmpty()) {
