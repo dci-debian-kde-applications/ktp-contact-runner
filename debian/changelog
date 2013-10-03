@@ -1,3 +1,9 @@
+ktp-contact-runner (0.6.80-1) UNRELEASED; urgency=low
+
+  * Import new upstream release 0.6.80
+
+ -- Diane Trout <diane@ghic.org>  Sun, 29 Sep 2013 08:59:21 -0700
+
 ktp-contact-runner (0.6.3-1) unstable; urgency=low
 
   * Initial release. (Closes: #716665)
