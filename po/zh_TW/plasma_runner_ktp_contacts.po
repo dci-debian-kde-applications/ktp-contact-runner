@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-09-30 05:23+0000\n"
 "PO-Revision-Date: 2013-01-21 17:41+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -55,12 +55,12 @@ msgstr "尋找所有符合 :q: 並且可以分享桌面，並將其做為預設�
 msgid "Open the log viewer for :q:"
 msgstr "開啟 :q: 的紀錄檢視器"
 
-#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:415
 msgctxt "A keyword to change IM status"
 msgid "im"
 msgstr "即時訊息"
 
-#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:416
 msgctxt "A keyword to change IM status"
 msgid "status"
 msgstr "狀態"
@@ -83,7 +83,7 @@ msgstr "<狀態訊息>"
 msgid "Change IM status and set status message."
 msgstr "變更即時訊息狀態並設定狀態訊息。"
 
-#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:417
 msgctxt "A command to connect all IM accounts"
 msgid "connect"
 msgstr "連線"
@@ -92,7 +92,7 @@ msgstr "連線"
 msgid "Connect all IM accounts"
 msgstr "連線所有的即時訊息帳號"
 
-#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:418
 msgctxt "A command to disconnect all IM accounts"
 msgid "disconnect"
 msgstr "斷線"
@@ -130,57 +130,57 @@ msgstr "開啟紀錄檢視器"
 msgid "Choose files to send to %1"
 msgstr "選擇要傳送給 %1 的檔案"
 
-#: src/contactrunner.cpp:429
+#: src/contactrunner.cpp:445
 msgctxt "IM presence"
 msgid "online"
 msgstr "上線"
 
-#: src/contactrunner.cpp:433
+#: src/contactrunner.cpp:449
 msgctxt "IM presence"
 msgid "away"
 msgstr "離開"
 
-#: src/contactrunner.cpp:437
+#: src/contactrunner.cpp:453
 msgctxt "IM presence"
 msgid "busy"
 msgstr "忙碌"
 
-#: src/contactrunner.cpp:441
+#: src/contactrunner.cpp:457
 msgctxt "IM presence"
 msgid "hidden"
 msgstr "隱藏"
 
-#: src/contactrunner.cpp:445
+#: src/contactrunner.cpp:461
 msgctxt "IM presence"
 msgid "offline"
 msgstr "離線"
 
-#: src/contactrunner.cpp:462
+#: src/contactrunner.cpp:478
 msgctxt "Description of runner action"
 msgid "Set IM status to online"
 msgstr "將即時訊息狀態設定為上線"
 
-#: src/contactrunner.cpp:467
+#: src/contactrunner.cpp:483
 msgctxt "Description of runner action"
 msgid "Set IM status to away"
 msgstr "將即時訊息狀態設定為離開"
 
-#: src/contactrunner.cpp:472
+#: src/contactrunner.cpp:488
 msgctxt "Description of runner action"
 msgid "Set IM status to busy"
 msgstr "將即時訊息狀態設定為忙碌"
 
-#: src/contactrunner.cpp:477
+#: src/contactrunner.cpp:493
 msgctxt "Description of runner action"
 msgid "Set IM status to hidden"
 msgstr "將即時訊息狀態設定為隱藏"
 
-#: src/contactrunner.cpp:482
+#: src/contactrunner.cpp:498
 msgctxt "Description of runner action"
 msgid "Set IM status to offline"
 msgstr "將即時訊息狀態設定為離線"
 
-#: src/contactrunner.cpp:489
+#: src/contactrunner.cpp:505
 #, kde-format
 msgid "Status message: %1"
 msgstr "狀態訊息:：%1"

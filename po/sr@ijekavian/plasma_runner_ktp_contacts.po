@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_runner_ktp_contacts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-09-30 05:23+0000\n"
 "PO-Revision-Date: 2012-08-17 21:54+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -66,12 +66,12 @@ msgstr ""
 msgid "Open the log viewer for :q:"
 msgstr "Отвори приказивач дневника за :q:"
 
-#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:415
 msgctxt "A keyword to change IM status"
 msgid "im"
 msgstr "им"
 
-#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:416
 msgctxt "A keyword to change IM status"
 msgid "status"
 msgstr "стање"
@@ -94,7 +94,7 @@ msgstr "&lt;порука стања&gt;"
 msgid "Change IM status and set status message."
 msgstr "Промијените ИМ стање и задајте поруку стања."
 
-#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:417
 msgctxt "A command to connect all IM accounts"
 msgid "connect"
 msgstr "повежи"
@@ -103,7 +103,7 @@ msgstr "повежи"
 msgid "Connect all IM accounts"
 msgstr "Повежи све ИМ налоге"
 
-#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:418
 msgctxt "A command to disconnect all IM accounts"
 msgid "disconnect"
 msgstr "прекини"
@@ -142,57 +142,57 @@ msgstr "Отвори приказивач дневника"
 msgid "Choose files to send to %1"
 msgstr "Избор фајлова за слање примаоцу %1"
 
-#: src/contactrunner.cpp:429
+#: src/contactrunner.cpp:445
 msgctxt "IM presence"
 msgid "online"
 msgstr "на вези"
 
-#: src/contactrunner.cpp:433
+#: src/contactrunner.cpp:449
 msgctxt "IM presence"
 msgid "away"
 msgstr "одсутно"
 
-#: src/contactrunner.cpp:437
+#: src/contactrunner.cpp:453
 msgctxt "IM presence"
 msgid "busy"
 msgstr "заузето"
 
-#: src/contactrunner.cpp:441
+#: src/contactrunner.cpp:457
 msgctxt "IM presence"
 msgid "hidden"
 msgstr "скривено"
 
-#: src/contactrunner.cpp:445
+#: src/contactrunner.cpp:461
 msgctxt "IM presence"
 msgid "offline"
 msgstr "ван везе"
 
-#: src/contactrunner.cpp:462
+#: src/contactrunner.cpp:478
 msgctxt "Description of runner action"
 msgid "Set IM status to online"
 msgstr "Постави ИМ стање на вези"
 
-#: src/contactrunner.cpp:467
+#: src/contactrunner.cpp:483
 msgctxt "Description of runner action"
 msgid "Set IM status to away"
 msgstr "Постави ИМ стање на одсутно"
 
-#: src/contactrunner.cpp:472
+#: src/contactrunner.cpp:488
 msgctxt "Description of runner action"
 msgid "Set IM status to busy"
 msgstr "Постави ИМ стање на заузето"
 
-#: src/contactrunner.cpp:477
+#: src/contactrunner.cpp:493
 msgctxt "Description of runner action"
 msgid "Set IM status to hidden"
 msgstr "Постави ИМ стање на скривено"
 
-#: src/contactrunner.cpp:482
+#: src/contactrunner.cpp:498
 msgctxt "Description of runner action"
 msgid "Set IM status to offline"
 msgstr "Постави ИМ стање ван везе"
 
-#: src/contactrunner.cpp:489
+#: src/contactrunner.cpp:505
 #, kde-format
 msgid "Status message: %1"
 msgstr "Порука стања: %1"

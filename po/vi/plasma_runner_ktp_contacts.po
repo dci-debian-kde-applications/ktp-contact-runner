@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-09-30 05:23+0000\n"
 "PO-Revision-Date: 2012-10-09 16:07+0800\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -64,12 +64,12 @@ msgstr ""
 msgid "Open the log viewer for :q:"
 msgstr "Mở trình xem nhật ký cho :q:"
 
-#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:415
 msgctxt "A keyword to change IM status"
 msgid "im"
 msgstr ""
 
-#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:416
 msgctxt "A keyword to change IM status"
 msgid "status"
 msgstr ""
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Change IM status and set status message."
 msgstr "Thay đổi trạng thái IM và đặt tin trạng thái."
 
-#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:417
 msgctxt "A command to connect all IM accounts"
 msgid "connect"
 msgstr ""
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Connect all IM accounts"
 msgstr "Kết nối tất cả các tài khoản IM"
 
-#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:418
 msgctxt "A command to disconnect all IM accounts"
 msgid "disconnect"
 msgstr ""
@@ -139,57 +139,57 @@ msgstr "Mở trình xem nhật ký"
 msgid "Choose files to send to %1"
 msgstr "Chọn các tập tin để gửi tới %1"
 
-#: src/contactrunner.cpp:429
+#: src/contactrunner.cpp:445
 msgctxt "IM presence"
 msgid "online"
 msgstr ""
 
-#: src/contactrunner.cpp:433
+#: src/contactrunner.cpp:449
 msgctxt "IM presence"
 msgid "away"
 msgstr ""
 
-#: src/contactrunner.cpp:437
+#: src/contactrunner.cpp:453
 msgctxt "IM presence"
 msgid "busy"
 msgstr ""
 
-#: src/contactrunner.cpp:441
+#: src/contactrunner.cpp:457
 msgctxt "IM presence"
 msgid "hidden"
 msgstr ""
 
-#: src/contactrunner.cpp:445
+#: src/contactrunner.cpp:461
 msgctxt "IM presence"
 msgid "offline"
 msgstr ""
 
-#: src/contactrunner.cpp:462
+#: src/contactrunner.cpp:478
 msgctxt "Description of runner action"
 msgid "Set IM status to online"
 msgstr "Đặt trạng thái IM sang \"trực tuyến\""
 
-#: src/contactrunner.cpp:467
+#: src/contactrunner.cpp:483
 msgctxt "Description of runner action"
 msgid "Set IM status to away"
 msgstr "Đặt trạng thái IM sang \"không ở đây\""
 
-#: src/contactrunner.cpp:472
+#: src/contactrunner.cpp:488
 msgctxt "Description of runner action"
 msgid "Set IM status to busy"
 msgstr "Đặt trạng thái IM sang \"bận\""
 
-#: src/contactrunner.cpp:477
+#: src/contactrunner.cpp:493
 msgctxt "Description of runner action"
 msgid "Set IM status to hidden"
 msgstr "Đặt trạng thái IM sang \"giấu mặt\""
 
-#: src/contactrunner.cpp:482
+#: src/contactrunner.cpp:498
 msgctxt "Description of runner action"
 msgid "Set IM status to offline"
 msgstr "Đặt trạng thái IM sang \"ngoại tuyến\""
 
-#: src/contactrunner.cpp:489
+#: src/contactrunner.cpp:505
 #, kde-format
 msgid "Status message: %1"
 msgstr "Tin trạng thái: %1"

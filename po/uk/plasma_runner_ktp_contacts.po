@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-09-30 05:23+0000\n"
 "PO-Revision-Date: 2012-08-04 08:26+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -66,12 +66,12 @@ msgstr ""
 msgid "Open the log viewer for :q:"
 msgstr "Відкрити панель перегляду журналу для :q:"
 
-#: src/contactrunner.cpp:77 src/contactrunner.cpp:399
+#: src/contactrunner.cpp:77 src/contactrunner.cpp:415
 msgctxt "A keyword to change IM status"
 msgid "im"
 msgstr "оп"
 
-#: src/contactrunner.cpp:78 src/contactrunner.cpp:400
+#: src/contactrunner.cpp:78 src/contactrunner.cpp:416
 msgctxt "A keyword to change IM status"
 msgid "status"
 msgstr "стан"
@@ -97,7 +97,7 @@ msgstr ""
 "стану."
 
 # Краще без апострофа
-#: src/contactrunner.cpp:90 src/contactrunner.cpp:401
+#: src/contactrunner.cpp:90 src/contactrunner.cpp:417
 msgctxt "A command to connect all IM accounts"
 msgid "connect"
 msgstr "увійти"
@@ -107,7 +107,7 @@ msgid "Connect all IM accounts"
 msgstr "З’єднатися з усіма обліковими записами обміну повідомленнями"
 
 # Краще без апострофа
-#: src/contactrunner.cpp:92 src/contactrunner.cpp:402
+#: src/contactrunner.cpp:92 src/contactrunner.cpp:418
 msgctxt "A command to disconnect all IM accounts"
 msgid "disconnect"
 msgstr "вийти"
@@ -145,57 +145,57 @@ msgstr "Відкрити панель перегляду журналу"
 msgid "Choose files to send to %1"
 msgstr "Виберіть файли, які слід надіслати %1"
 
-#: src/contactrunner.cpp:429
+#: src/contactrunner.cpp:445
 msgctxt "IM presence"
 msgid "online"
 msgstr "у мережі"
 
-#: src/contactrunner.cpp:433
+#: src/contactrunner.cpp:449
 msgctxt "IM presence"
 msgid "away"
 msgstr "відсутній"
 
-#: src/contactrunner.cpp:437
+#: src/contactrunner.cpp:453
 msgctxt "IM presence"
 msgid "busy"
 msgstr "зайнятий"
 
-#: src/contactrunner.cpp:441
+#: src/contactrunner.cpp:457
 msgctxt "IM presence"
 msgid "hidden"
 msgstr "прихований"
 
-#: src/contactrunner.cpp:445
+#: src/contactrunner.cpp:461
 msgctxt "IM presence"
 msgid "offline"
 msgstr "поза мережею"
 
-#: src/contactrunner.cpp:462
+#: src/contactrunner.cpp:478
 msgctxt "Description of runner action"
 msgid "Set IM status to online"
 msgstr "Встановити стан «У мережі»"
 
-#: src/contactrunner.cpp:467
+#: src/contactrunner.cpp:483
 msgctxt "Description of runner action"
 msgid "Set IM status to away"
 msgstr "Встановити стан «Відсутній»"
 
-#: src/contactrunner.cpp:472
+#: src/contactrunner.cpp:488
 msgctxt "Description of runner action"
 msgid "Set IM status to busy"
 msgstr "Встановити стан «Зайнятий»"
 
-#: src/contactrunner.cpp:477
+#: src/contactrunner.cpp:493
 msgctxt "Description of runner action"
 msgid "Set IM status to hidden"
 msgstr "Встановити стан «Прихований»"
 
-#: src/contactrunner.cpp:482
+#: src/contactrunner.cpp:498
 msgctxt "Description of runner action"
 msgid "Set IM status to offline"
 msgstr "Встановити стан «Поза мережею»"
 
-#: src/contactrunner.cpp:489
+#: src/contactrunner.cpp:505
 #, kde-format
 msgid "Status message: %1"
 msgstr "Повідомлення про стан: %1"
