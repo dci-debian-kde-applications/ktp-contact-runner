@@ -1,10 +1,10 @@
-ktp-contact-runner (0.7.0-1) UNRELEASED; urgency=low
+ktp-contact-runner (0.7.0-1) unstable; urgency=low
 
   * Import new upstream release 0.7.0
   * Bump Build-Depends of libktpcommoninternalsprivate-dev to 0.7.0
   * Bump Depends kde-telepathy-data to 0.7.0
 
- -- Diane Trout <diane@ghic.org>  Tue, 29 Oct 2013 22:17:26 -0700
+ -- Diane Trout <diane@ghic.org>  Wed, 27 Nov 2013 18:12:15 -0800
 
 ktp-contact-runner (0.6.3-1) unstable; urgency=low
 
