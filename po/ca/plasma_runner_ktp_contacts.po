@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_runner_ktp_contacts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-30 05:23+0000\n"
+"POT-Creation-Date: 2013-09-30 01:36+0000\n"
 "PO-Revision-Date: 2012-05-19 18:35+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -67,53 +67,53 @@ msgstr ""
 
 #: src/contactrunner.cpp:74
 msgid "Open the log viewer for :q:"
-msgstr "Obre el visor de la bitàcola de :q:"
+msgstr ""
 
 #: src/contactrunner.cpp:77 src/contactrunner.cpp:415
 msgctxt "A keyword to change IM status"
 msgid "im"
-msgstr "mi"
+msgstr ""
 
 #: src/contactrunner.cpp:78 src/contactrunner.cpp:416
 msgctxt "A keyword to change IM status"
 msgid "status"
-msgstr "estat"
+msgstr ""
 
 #: src/contactrunner.cpp:79
 msgid "Change IM status"
-msgstr "Canvia l'estat de MI"
+msgstr ""
 
 #: src/contactrunner.cpp:81 src/contactrunner.cpp:87
 msgctxt "Search term description"
 msgid "status"
-msgstr "estat"
+msgstr ""
 
 #: src/contactrunner.cpp:84 src/contactrunner.cpp:86
 msgctxt "Description of a search term, please keep the brackets"
 msgid "<status message>"
-msgstr "<missatge d'estat>"
+msgstr ""
 
 #: src/contactrunner.cpp:85
 msgid "Change IM status and set status message."
-msgstr "Canvia l'estat de MI i estableix el missatge d'estat."
+msgstr ""
 
 #: src/contactrunner.cpp:90 src/contactrunner.cpp:417
 msgctxt "A command to connect all IM accounts"
 msgid "connect"
-msgstr "connecta"
+msgstr ""
 
 #: src/contactrunner.cpp:91
 msgid "Connect all IM accounts"
-msgstr "Connecta tots els comptes de MI"
+msgstr ""
 
 #: src/contactrunner.cpp:92 src/contactrunner.cpp:418
 msgctxt "A command to disconnect all IM accounts"
 msgid "disconnect"
-msgstr "desconnecta"
+msgstr ""
 
 #: src/contactrunner.cpp:93
 msgid "Disconnect all IM accounts"
-msgstr "Desconnecta tots els comptes de MI"
+msgstr ""
 
 #: src/contactrunner.cpp:95
 msgid "Start Chat"
@@ -137,7 +137,7 @@ msgstr "Comparteix el meu escriptori"
 
 #: src/contactrunner.cpp:102
 msgid "Open the log viewer"
-msgstr "Obre el visor de la bitàcola"
+msgstr ""
 
 #: src/contactrunner.cpp:239
 #, kde-format
@@ -147,54 +147,54 @@ msgstr "Seleccioneu els fitxers a enviar a %1"
 #: src/contactrunner.cpp:445
 msgctxt "IM presence"
 msgid "online"
-msgstr "en línia"
+msgstr ""
 
 #: src/contactrunner.cpp:449
 msgctxt "IM presence"
 msgid "away"
-msgstr "absent"
+msgstr ""
 
 #: src/contactrunner.cpp:453
 msgctxt "IM presence"
 msgid "busy"
-msgstr "ocupat"
+msgstr ""
 
 #: src/contactrunner.cpp:457
 msgctxt "IM presence"
 msgid "hidden"
-msgstr "ocult"
+msgstr ""
 
 #: src/contactrunner.cpp:461
 msgctxt "IM presence"
 msgid "offline"
-msgstr "desconnectat"
+msgstr ""
 
 #: src/contactrunner.cpp:478
 msgctxt "Description of runner action"
 msgid "Set IM status to online"
-msgstr "Estableix l'estat de MI a connectat"
+msgstr ""
 
 #: src/contactrunner.cpp:483
 msgctxt "Description of runner action"
 msgid "Set IM status to away"
-msgstr "Estableix l'estat de MI a absent"
+msgstr ""
 
 #: src/contactrunner.cpp:488
 msgctxt "Description of runner action"
 msgid "Set IM status to busy"
-msgstr "Estableix l'estat de MI a ocupat"
+msgstr ""
 
 #: src/contactrunner.cpp:493
 msgctxt "Description of runner action"
 msgid "Set IM status to hidden"
-msgstr "Estableix l'estat de MI a ocult"
+msgstr ""
 
 #: src/contactrunner.cpp:498
 msgctxt "Description of runner action"
 msgid "Set IM status to offline"
-msgstr "Estableix l'estat de MI a desconnectat"
+msgstr ""
 
 #: src/contactrunner.cpp:505
 #, kde-format
 msgid "Status message: %1"
-msgstr "Missatge d'estat: %1"
+msgstr ""

@@ -1,72 +1,60 @@
-# KDE Finnish translation sprint participants:
-# Author: Artnay
-# Lasse Liehu <lasse.liehu@gmail.com>, 2013.
-# Tommi Nieminen <translator@legisign.org>, 2013.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# A S Alam <aalam@users.sf.net>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma_runner_ktp_contacts\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-09-30 01:36+0000\n"
-"PO-Revision-Date: 2013-11-08 17:37+0200\n"
-"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
-"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
-"Language: fi\n"
+"PO-Revision-Date: 2013-05-04 22:34+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-POT-Import-Date: 2012-12-01 22:21:15+0000\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/contactrunner.cpp:66
 msgid "Finds all IM contacts matching :q:."
-msgstr "Etsii kaikki hakua :q: vastaavat yhteystiedot"
+msgstr ""
 
 #: src/contactrunner.cpp:67
 msgid ""
 "Finds all contacts matching :q: that are capable of text chats (default "
 "behavior)"
 msgstr ""
-"Etsii kaikki hakua :q: vastaavat yhteystiedot, jotka voivat osallistua "
-"tekstiviestintään (oletuskäyttäytyminen)"
 
 #: src/contactrunner.cpp:68
 msgid ""
 "Finds all contacts matching :q: that are capable of audio call and uses "
 "audio calls as default action."
 msgstr ""
-"Etsii kaikki hakua :q: vastaavat yhteystiedot, jotka voivat vastaanottaa "
-"äänipuhelun, ja asettaa äänipuhelun oletustoimeksi."
 
 #: src/contactrunner.cpp:69
 msgid ""
 "Finds all contacts matching :q: that are capable of video call and uses "
 "video calls as default action."
 msgstr ""
-"Etsii kaikki hakua :q: vastaavat yhteystiedot, jotka voivat vastaanottaa "
-"videopuhelun, ja asettaa videopuhelun oletustoimeksi."
 
 #: src/contactrunner.cpp:70
 msgid ""
 "Finds all contacts matching :q: that are capable of receiving files and "
 "sends file as default action."
 msgstr ""
-"Etsii kaikki hakua :q: vastaavat yhteystiedot, jotka voivat vastaanottaa "
-"tiedostoja, ja asettaa tiedostojen lähetyksen oletustoimeksi."
 
 #: src/contactrunner.cpp:71
 msgid ""
 "Finds all contacts matching :q: that are capable of sharing desktop and sets "
 "desktop sharing as default action."
 msgstr ""
-"Etsii kaikki hakua :q: vastaavat yhteystiedot, jotka voivat jakaa työpöydän, "
-"ja asettaa työpöytäjaon oletustoimeksi."
 
 #: src/contactrunner.cpp:74
 msgid "Open the log viewer for :q:"
-msgstr "Avaa lokikatselin kohteelle :q:"
+msgstr ""
 
-# Tätä tuskin kannattaa muuttaa?
 #: src/contactrunner.cpp:77 src/contactrunner.cpp:415
 msgctxt "A keyword to change IM status"
 msgid "im"
@@ -75,124 +63,124 @@ msgstr "im"
 #: src/contactrunner.cpp:78 src/contactrunner.cpp:416
 msgctxt "A keyword to change IM status"
 msgid "status"
-msgstr "tila"
+msgstr "ਹਾਲਤ"
 
 #: src/contactrunner.cpp:79
 msgid "Change IM status"
-msgstr "Vaihda pikaviestintilaa"
+msgstr ""
 
 #: src/contactrunner.cpp:81 src/contactrunner.cpp:87
 msgctxt "Search term description"
 msgid "status"
-msgstr "tila"
+msgstr "ਹਾਲਤ"
 
 #: src/contactrunner.cpp:84 src/contactrunner.cpp:86
 msgctxt "Description of a search term, please keep the brackets"
 msgid "<status message>"
-msgstr "<tilaviesti>"
+msgstr "<ਹਾਲਤ ਸੁਨੇਹਾ>"
 
 #: src/contactrunner.cpp:85
 msgid "Change IM status and set status message."
-msgstr "Vaihda pikaviestintilaa ja aseta tilaviesti."
+msgstr ""
 
 #: src/contactrunner.cpp:90 src/contactrunner.cpp:417
 msgctxt "A command to connect all IM accounts"
 msgid "connect"
-msgstr "yhdistä"
+msgstr "ਕੁਨੈਕਟ ਕਰੋ"
 
 #: src/contactrunner.cpp:91
 msgid "Connect all IM accounts"
-msgstr "Yhdistä kaikkiin pikaviestintileihin"
+msgstr "ਸਭ ਆਈਐਮ ਕੁਨੈਕਟ ਕਰੋ"
 
 #: src/contactrunner.cpp:92 src/contactrunner.cpp:418
 msgctxt "A command to disconnect all IM accounts"
 msgid "disconnect"
-msgstr "katkaise"
+msgstr "ਡਿਸ-ਕੁਨੈਕਟ"
 
 #: src/contactrunner.cpp:93
 msgid "Disconnect all IM accounts"
-msgstr "Katkaise kaikki pikaviestintilit"
+msgstr "ਸਭ ਆਈਐਮ ਡਿਸ-ਕੁਨੈਕਟ ਕਰੋ"
 
 #: src/contactrunner.cpp:95
 msgid "Start Chat"
-msgstr "Aloita keskustelu"
+msgstr "ਗੱਲਬਾਤ ਸ਼ੁਰੂ"
 
 #: src/contactrunner.cpp:96
 msgid "Start Audio Call"
-msgstr "Aloita äänipuhelu"
+msgstr "ਆਡੀਓ ਕਾਲ ਕਰੋ"
 
 #: src/contactrunner.cpp:97
 msgid "Start Video Call"
-msgstr "Aloita videopuhelu"
+msgstr "ਵਿਡੀਓ ਕਾਲ ਕਰੋ"
 
 #: src/contactrunner.cpp:98
 msgid "Send file(s)"
-msgstr "Lähetä tiedosto"
+msgstr "ਫਾਇਲਾਂ ਭੇਜੋ"
 
 #: src/contactrunner.cpp:99
 msgid "Share My Desktop"
-msgstr "Jaa työpöytäni"
+msgstr "ਮੇਰਾ ਡੈਸਕਟਾਪ ਸਾਂਝਾ ਕਰੋ"
 
 #: src/contactrunner.cpp:102
 msgid "Open the log viewer"
-msgstr "Avaa lokikatselin"
+msgstr ""
 
 #: src/contactrunner.cpp:239
 #, kde-format
 msgid "Choose files to send to %1"
-msgstr "Valitse käyttäjälle %1 lähetettävät tiedostot"
+msgstr ""
 
 #: src/contactrunner.cpp:445
 msgctxt "IM presence"
 msgid "online"
-msgstr "paikalla"
+msgstr "ਆਨਲਾਈਨ"
 
 #: src/contactrunner.cpp:449
 msgctxt "IM presence"
 msgid "away"
-msgstr "poissa"
+msgstr "ਦੂਰ"
 
 #: src/contactrunner.cpp:453
 msgctxt "IM presence"
 msgid "busy"
-msgstr "varattu"
+msgstr "ਰੁਝੇ"
 
 #: src/contactrunner.cpp:457
 msgctxt "IM presence"
 msgid "hidden"
-msgstr "piilossa"
+msgstr "ਓਹਲੇ"
 
 #: src/contactrunner.cpp:461
 msgctxt "IM presence"
 msgid "offline"
-msgstr "ei verkossa"
+msgstr "ਆਫਲਾਈਨ"
 
 #: src/contactrunner.cpp:478
 msgctxt "Description of runner action"
 msgid "Set IM status to online"
-msgstr "Aseta pikaviestintilaksi ”paikalla”"
+msgstr ""
 
 #: src/contactrunner.cpp:483
 msgctxt "Description of runner action"
 msgid "Set IM status to away"
-msgstr "Aseta pikaviestintilaksi ”poissa”"
+msgstr ""
 
 #: src/contactrunner.cpp:488
 msgctxt "Description of runner action"
 msgid "Set IM status to busy"
-msgstr "Aseta pikaviestintilaksi ”varattu”"
+msgstr ""
 
 #: src/contactrunner.cpp:493
 msgctxt "Description of runner action"
 msgid "Set IM status to hidden"
-msgstr "Aseta pikaviestintilaksi ”piilossa”"
+msgstr ""
 
 #: src/contactrunner.cpp:498
 msgctxt "Description of runner action"
 msgid "Set IM status to offline"
-msgstr "Aseta pikaviestintilaksi ”ei verkossa”"
+msgstr ""
 
 #: src/contactrunner.cpp:505
 #, kde-format
 msgid "Status message: %1"
-msgstr "Tilaviesti: %1"
+msgstr "ਹਾਲਤ ਸੁਨੇਹਾ: %1"
