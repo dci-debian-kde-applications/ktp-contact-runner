@@ -1,10 +1,10 @@
-ktp-contact-runner (0.7.80-1) UNRELEASED; urgency=medium
+ktp-contact-runner (0.8.1-1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Bump Standards-Version to 3.9.5. No changes needed.
-  * Updaate libktpcommoninternals and kde-telepathy-data to 0.8.0
+  * Updaate libktpcommoninternals and kde-telepathy-data to 0.8.1
 
- -- Diane Trout <diane@ghic.org>  Wed, 19 Feb 2014 20:54:22 -0800
+ -- Diane Trout <diane@ghic.org>  Sun, 27 Apr 2014 12:39:06 -0700
 
 ktp-contact-runner (0.7.0-1) unstable; urgency=low
 
