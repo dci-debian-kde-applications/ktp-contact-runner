@@ -1,195 +1,183 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Park Shinjo <peremen@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: ktp-contactrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-09-30 05:23+0000\n"
-"PO-Revision-Date: 2014-03-09 04:50+0900\n"
-"Last-Translator: Park Shinjo <peremen@gmail.com>\n"
-"Language-Team: Korean <kde@peremen.name>\n"
-"Language: ko\n"
+"PO-Revision-Date: 2012-03-17 00:49-0700\n"
+"Last-Translator: Japanese KDE translation team <Kdeveloper@kde.gr.jp>\n"
+"Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #: src/contactrunner.cpp:66
 msgid "Finds all IM contacts matching :q:."
-msgstr ":q:와(과) 일치하는 IM 대화 상대를 찾습니다."
+msgstr ""
 
 #: src/contactrunner.cpp:67
 msgid ""
 "Finds all contacts matching :q: that are capable of text chats (default "
 "behavior)"
 msgstr ""
-":q:와(과) 일치하는 텍스트 메시징을 사용할 수 있는 대화 상대를 찾습니다(기본"
-"값)."
 
 #: src/contactrunner.cpp:68
 msgid ""
 "Finds all contacts matching :q: that are capable of audio call and uses "
 "audio calls as default action."
 msgstr ""
-":q:와(과) 일치하는 음성 통화를 사용할 수 있는 대화 상대를 찾고 음성 통화를 기"
-"본으로 합니다."
 
 #: src/contactrunner.cpp:69
 msgid ""
 "Finds all contacts matching :q: that are capable of video call and uses "
 "video calls as default action."
 msgstr ""
-":q:와(과) 일치하는 영상 통화를 사용할 수 있는 대화 상대를 찾고 영상 통화를 기"
-"본으로 합니다."
 
 #: src/contactrunner.cpp:70
 msgid ""
 "Finds all contacts matching :q: that are capable of receiving files and "
 "sends file as default action."
 msgstr ""
-":q:와(과) 일치하는 파일 전송을 사용할 수 있는 대화 상대를 찾고 파일 전송을 기"
-"본으로 합니다."
 
 #: src/contactrunner.cpp:71
 msgid ""
 "Finds all contacts matching :q: that are capable of sharing desktop and sets "
 "desktop sharing as default action."
 msgstr ""
-":q:와(과) 일치하는 데스크톱 공유를 사용할 수 있는 대화 상대를 찾고 데스크톱 "
-"공유를 기본으로 합니다."
 
 #: src/contactrunner.cpp:74
 msgid "Open the log viewer for :q:"
-msgstr ":q:에 대한 로그 뷰어를 엽니다."
+msgstr ""
 
 #: src/contactrunner.cpp:77 src/contactrunner.cpp:415
 msgctxt "A keyword to change IM status"
 msgid "im"
-msgstr "im"
+msgstr ""
 
 #: src/contactrunner.cpp:78 src/contactrunner.cpp:416
 msgctxt "A keyword to change IM status"
 msgid "status"
-msgstr "상태"
+msgstr ""
 
 #: src/contactrunner.cpp:79
 msgid "Change IM status"
-msgstr "IM 상태 변경"
+msgstr ""
 
 #: src/contactrunner.cpp:81 src/contactrunner.cpp:87
 msgctxt "Search term description"
 msgid "status"
-msgstr "상태"
+msgstr ""
 
 #: src/contactrunner.cpp:84 src/contactrunner.cpp:86
 msgctxt "Description of a search term, please keep the brackets"
 msgid "<status message>"
-msgstr "<상태 메시지>"
+msgstr ""
 
 #: src/contactrunner.cpp:85
 msgid "Change IM status and set status message."
-msgstr "IM 상태와 상태 메시지를 변경합니다."
+msgstr ""
 
 #: src/contactrunner.cpp:90 src/contactrunner.cpp:417
 msgctxt "A command to connect all IM accounts"
 msgid "connect"
-msgstr "연결"
+msgstr ""
 
 #: src/contactrunner.cpp:91
 msgid "Connect all IM accounts"
-msgstr "모든 IM 계정 연결"
+msgstr ""
 
 #: src/contactrunner.cpp:92 src/contactrunner.cpp:418
 msgctxt "A command to disconnect all IM accounts"
 msgid "disconnect"
-msgstr "연결 끊기"
+msgstr ""
 
 #: src/contactrunner.cpp:93
 msgid "Disconnect all IM accounts"
-msgstr "모든 IM 계정 연결 해제"
+msgstr ""
 
 #: src/contactrunner.cpp:95
 msgid "Start Chat"
-msgstr "대화 시작"
+msgstr ""
 
 #: src/contactrunner.cpp:96
 msgid "Start Audio Call"
-msgstr "음성 통화 시작"
+msgstr ""
 
 #: src/contactrunner.cpp:97
 msgid "Start Video Call"
-msgstr "영상 통화 시작"
+msgstr ""
 
 #: src/contactrunner.cpp:98
 msgid "Send file(s)"
-msgstr "파일 보내기"
+msgstr ""
 
 #: src/contactrunner.cpp:99
 msgid "Share My Desktop"
-msgstr "내 데스크톱 공유"
+msgstr ""
 
 #: src/contactrunner.cpp:102
 msgid "Open the log viewer"
-msgstr "로그 뷰어 열기"
+msgstr ""
 
 #: src/contactrunner.cpp:239
 #, kde-format
 msgid "Choose files to send to %1"
-msgstr "%1 님에게 보낼 파일 선택"
+msgstr ""
 
 #: src/contactrunner.cpp:445
 msgctxt "IM presence"
 msgid "online"
-msgstr "온라인"
+msgstr ""
 
 #: src/contactrunner.cpp:449
 msgctxt "IM presence"
 msgid "away"
-msgstr "자리 비움"
+msgstr ""
 
 #: src/contactrunner.cpp:453
 msgctxt "IM presence"
 msgid "busy"
-msgstr "바쁨"
+msgstr ""
 
 #: src/contactrunner.cpp:457
 msgctxt "IM presence"
 msgid "hidden"
-msgstr "숨겨짐"
+msgstr ""
 
 #: src/contactrunner.cpp:461
 msgctxt "IM presence"
 msgid "offline"
-msgstr "오프라인"
+msgstr ""
 
 #: src/contactrunner.cpp:478
 msgctxt "Description of runner action"
 msgid "Set IM status to online"
-msgstr "IM 상태를 온라인으로 설정"
+msgstr ""
 
 #: src/contactrunner.cpp:483
 msgctxt "Description of runner action"
 msgid "Set IM status to away"
-msgstr "IM 상태를 자리 비움으로 설정"
+msgstr ""
 
 #: src/contactrunner.cpp:488
 msgctxt "Description of runner action"
 msgid "Set IM status to busy"
-msgstr "IM 상태를 바쁨으로 설정"
+msgstr ""
 
 #: src/contactrunner.cpp:493
 msgctxt "Description of runner action"
 msgid "Set IM status to hidden"
-msgstr "IM 상태를 숨겨짐으로 설정"
+msgstr ""
 
 #: src/contactrunner.cpp:498
 msgctxt "Description of runner action"
 msgid "Set IM status to offline"
-msgstr "IM 상태를 오프라인으로 설정"
+msgstr ""
 
 #: src/contactrunner.cpp:505
 #, kde-format
 msgid "Status message: %1"
-msgstr "상태 메시지: %1"
+msgstr ""
