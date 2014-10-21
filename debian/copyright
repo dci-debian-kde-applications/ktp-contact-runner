@@ -30,6 +30,8 @@ Copyright: 2012 Chusslove Illich <caslav.ilic@gmx.net>
            2012 Martin Schlander <mschlander@opensuse.org>
            2012 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
            2014 Park Shinjo <peremen@gmail.com>
+           2014 Steve Allewell <steve.allewell@gmail.com>
+           2014 Sönke Dibbern <s_dibbern@web.de>
 License: LGPL-2.1+
 
 Files: cmake/*
