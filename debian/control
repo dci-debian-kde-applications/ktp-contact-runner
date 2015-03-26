@@ -30,9 +30,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 
 Package: plasma-runner-telepathy-contact
 Architecture: any
-Depends: kde-telepathy-data (>= ${source:Upstream-Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: kde-telepathy-data, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kde-telepathy
 Description: Telepathy Contact KRunner plugin
  This package provides a KRunner plugin which allows you to execute actions
