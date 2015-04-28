@@ -36,9 +36,9 @@ Description: Telepathy Contact KRunner plugin
  to install the kde-telepathy metapackage instead.
 
 Package: plasma-runner-telepathy-contact-dbg
-Architecture: any
 Section: debug
 Priority: extra
+Architecture: any
 Depends: plasma-runner-telepathy-contact (= ${binary:Version}), ${misc:Depends}
 Description: Telepathy Contact KRunner plugin - debug symbols
  This package provides the debug symbols for the Telepathy Contact
