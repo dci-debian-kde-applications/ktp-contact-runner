@@ -19,11 +19,11 @@
 
 #include "contactrunner.h"
 
-#include <KDebug>
-#include <KFileDialog>
-#include <KMimeType>
-#include <KToolInvocation>
-#include <KStandardDirs>
+#include <QDebug>
+#include <QFileDialog>
+#include <QStandardPaths>
+
+#include <KLocalizedString>
 
 #include <TelepathyQt/ContactManager>
 #include <TelepathyQt/Contact>
@@ -44,6 +44,8 @@
 #include <KTp/contact-factory.h>
 #include <KTp/contact.h>
 
+Q_LOGGING_CATEGORY(KTP_CONTACT_RUNNER, "ktp-contact-runner")
+
 struct MatchInfo {
     Tp::AccountPtr account;
     Tp::ContactPtr contact;
@@ -61,7 +63,7 @@ ContactRunner::ContactRunner(QObject *parent, const QVariantList &args):
 
     setObjectName(QLatin1String("IM Contacts Runner"));
 
-    m_loggerDisabled = KStandardDirs::findExe(QLatin1String("ktp-log-viewer")).isEmpty();
+    m_loggerDisabled = QStandardPaths::findExecutable(QLatin1String("ktp-log-viewer")).isEmpty();
 
     addSyntax(Plasma::RunnerSyntax(QLatin1String(":q:"), i18n("Finds all IM contacts matching :q:.")));
     addSyntax(Plasma::RunnerSyntax(QLatin1String("chat :q:"), i18n("Finds all contacts matching :q: that are capable of text chats (default behavior)")));
@@ -135,20 +137,18 @@ ContactRunner::~ContactRunner()
 void ContactRunner::accountManagerReady(Tp::PendingOperation *operation)
 {
     if (operation->isError()) {
-        kWarning() << operation->errorMessage();
+        qCWarning(KTP_CONTACT_RUNNER) << operation->errorMessage();
         return;
     }
-
-    kDebug() << "Accounts manager is ready!";
 
     m_globalPresence->setAccountManager(m_accountManager);
 }
 
-QList< QAction* > ContactRunner::actionsForMatch(const Plasma::QueryMatch &match)
+QList<QAction*> ContactRunner::actionsForMatch(const Plasma::QueryMatch &match)
 {
-    QList< QAction* > actions;
+    QList<QAction*> actions;
 
-    MatchInfo data = match.data().value< MatchInfo >();
+    MatchInfo data = match.data().value<MatchInfo>();
     if (!data.contact) {
         return actions;
     }
@@ -216,7 +216,7 @@ void ContactRunner::run(const Plasma::RunnerContext &context, const Plasma::Quer
     }
 
     if (!data.account || !data.contact) {
-        kWarning() << "Running invalid contact info";
+        qCWarning(KTP_CONTACT_RUNNER) << "Running invalid contact info";
         return;
     }
 
@@ -232,11 +232,9 @@ void ContactRunner::run(const Plasma::RunnerContext &context, const Plasma::Quer
         KTp::Actions::startAudioVideoCall(account, contact);
     } else if (match.selectedAction() == action("start-file-transfer")) {
 
-      QStringList filenames = KFileDialog::getOpenFileNames(
-                                    KUrl("kfiledialog:///FileTransferLastDirectory"),
-                                    QString(),
-                                    0,
-                                    i18n("Choose files to send to %1", contact->alias()));
+        QStringList filenames = QFileDialog::getOpenFileNames(0,
+                                                              i18n("Choose files to send to %1", contact->alias()),
+                                                              QStringLiteral("kfiledialog:///FileTransferLastDirectory"));
 
         if (filenames.isEmpty()) { // User hit cancel button
             return;
@@ -405,7 +403,7 @@ void ContactRunner::matchContacts(Plasma::RunnerContext &context)
             match.setSelectedAction(defaultAction);
             match.setRelevance(relevance);
 
-            context.addMatch(term, match);
+            context.addMatch(match);
         }
     }
 }
@@ -508,7 +506,9 @@ void ContactRunner::addPresenceMatch(Plasma::RunnerContext &context, Tp::Connect
 
     match.setData(qVariantFromValue(data));
 
-    context.addMatch(context.query(), match);
+    context.addMatch(match);
 }
+
+K_EXPORT_PLASMA_RUNNER(ktp_contacts, ContactRunner)
 
 #include "contactrunner.moc"
