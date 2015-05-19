@@ -15,7 +15,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5service-dev,
                libktp-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdenetwork/ktp-contact-runner
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/ktp-contact-runner.git
