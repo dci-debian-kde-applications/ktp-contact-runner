@@ -20,12 +20,14 @@
 #ifndef KTPCONTACTRUNNER_H
 #define KTPCONTACTRUNNER_H
 
-#include <QtCore/QModelIndex>
+#include <QModelIndex>
+#include <QLoggingCategory>
 
-#include <Plasma/AbstractRunner>
-#include <KIcon>
+#include <KRunner/AbstractRunner>
 
 #include <TelepathyQt/AccountManager>
+
+Q_DECLARE_LOGGING_CATEGORY(KTP_CONTACT_RUNNER)
 
 namespace KTp
 {
@@ -78,7 +80,5 @@ class ContactRunner : public Plasma::AbstractRunner
 
     bool m_loggerDisabled;
 };
-
-K_EXPORT_PLASMA_RUNNER(ktp_contacts, ContactRunner)
 
 #endif /* KTPCONTACTRUNNER_H */
