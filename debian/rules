@@ -1,4 +1,4 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --parallel --dbg-package=plasma-runner-telepathy-contact-dbg --list-missing
+	dh $@ --parallel --dbg-package=plasma-runner-telepathy-contact-dbg --fail-missing
