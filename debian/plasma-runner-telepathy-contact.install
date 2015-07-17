@@ -1,3 +1,2 @@
-usr/lib/kde4/krunner_ktp_contacts.so
-usr/share/kde4/services/plasma-runner-ktp-contact.desktop
-usr/share/locale/*/LC_MESSAGES/plasma_runner_ktp_contacts.mo
+usr/lib/*/plugins/krunner_ktp_contacts.so
+usr/share/kservices5/plasma-runner-ktp-contact.desktop

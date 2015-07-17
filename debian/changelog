@@ -9,6 +9,7 @@ ktp-contact-runner (15.04.3-1) UNRELEASED; urgency=medium
   * Update build-depends to include extra-cmake-modules, qtbase5-dev,
     libtelepathy-qt5-dev libtelepathy-logger-qt-dev, the renamed
     libktp-dev and a few other kf5-dev packages.
+  * Update install paths for plasma-runner-telepathy-contact
 
  -- Diane Trout <diane@debian.org>  Sun, 12 Jul 2015 17:04:09 -0700
 
