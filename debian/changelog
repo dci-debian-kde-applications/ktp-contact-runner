@@ -4,6 +4,8 @@ ktp-contact-runner (15.04.3-1) UNRELEASED; urgency=medium
   * Update watch file for KTp's move to Applications.
   * New upstream release.
   * Update Diane Trout's email address.
+  * Update copyright file as the translations are shipped elsewhere,
+    and the cmake files were removed.
 
  -- Diane Trout <diane@debian.org>  Sun, 12 Jul 2015 17:04:09 -0700
 
