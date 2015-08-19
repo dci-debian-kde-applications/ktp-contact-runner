@@ -23,7 +23,7 @@ Build-Depends: cmake,
                pkg-kde-tools (>> 0.15.15),
                plasma-framework-dev,
                qtbase5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-contact-runner
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-contact-runner.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-contact-runner.git
