@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Instant Messaging
+Name[ar]=التّراسل المباشر
 Name[ast]=Mensaxería nel intre
 Name[bs]=Brze poruke
 Name[ca]=Missatgeria instantània
@@ -43,6 +44,8 @@ Name[x-test]=xxInstant Messagingxx
 Name[zh_CN]=即时通讯
 Name[zh_TW]=即時訊息
 Comment=Start a chat with any of your IM contacts or change your IM status
+Comment[ar]=ابدأ محادثة بأيّ من متراسلي ت‌م أو غيّر حالة ت‌م
+Comment[ast]=Anicia una charra con cualesquiera de los tos contautos de MI o camuda'l to estáu
 Comment[bs]=Pokrenite ćaskanje s bilo kojim od vaših IM kontakta ili promijenite svoj IM status
 Comment[ca]=Inicia un xat amb qualsevol dels vostres contactes de MI o canvia el vostre estat de MI
 Comment[ca@valencia]=Inicia un xat amb qualsevol dels vostres contactes de MI o canvia el vostre estat de MI
@@ -67,7 +70,7 @@ Comment[nds]=En Klöönsnack mit een vun Dien KM-Kontakten starten oder Dien KN-
 Comment[nl]=Begin een chat met een van uw IM-contactpersonen of wijzig uw IM-status
 Comment[pl]=Rozpocznij rozmowę z którymkolwiek z twoich kontaktów lub zmień swoja dostępność
 Comment[pt]=Iniciar uma conversa com qualquer um dos seus contactos MI ou mudar o seu estado
-Comment[pt_BR]=Inicia um bate-papo com um dos seus contatos de MI ou altera o seu status
+Comment[pt_BR]=Inicia uma conversa com um dos seus contatos de MI ou altera o seu status
 Comment[ro]=Începeți o discuție cu oricare dintre contactele de MI sau schimbați-vă starea
 Comment[ru]=Начать общение с любым вашим контактом или изменить ваш статус в системе обмена сообщениями
 Comment[sk]=Spustiť rozhovor s nejakým z vašich IM kontaktov alebo zmeniť váš IM stav
