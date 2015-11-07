@@ -3,7 +3,6 @@ ktp-contact-runner (15.08.2-1) UNRELEASED; urgency=medium
   * Apply homepage update patch from Matthew Cope
   * Update watch file for KTp's move to Applications.
   * New upstream release.
-  * Update Diane Trout's email address.
   * Update copyright file as the translations are shipped elsewhere,
     and the cmake files were removed.
   * Update build-depends to include extra-cmake-modules, qtbase5-dev,
