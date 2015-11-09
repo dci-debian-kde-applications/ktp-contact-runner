@@ -1,4 +1,4 @@
-ktp-contact-runner (15.08.2-1~) UNRELEASED; urgency=medium
+ktp-contact-runner (15.08.3-1~) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * KDE Frameworks 5 port
@@ -15,8 +15,9 @@ ktp-contact-runner (15.08.2-1~) UNRELEASED; urgency=medium
   * New upstream release (15.08.0).
   * New upstream release (15.08.1).
   * New upstream release (15.08.2).
+  * New upstream release (15.08.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 15:20:04 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:27:47 +0100
 
 ktp-contact-runner (0.9.0-0ubuntu1) vivid; urgency=medium
 
