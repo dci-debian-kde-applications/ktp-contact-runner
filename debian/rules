@@ -4,3 +4,6 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=plasma-runner-telepathy-contact-dbg
+
+override_dh_install:
+	$(overridden_command) --fail-missing
