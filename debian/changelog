@@ -1,8 +1,65 @@
-ktp-contact-runner (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+ktp-contact-runner (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
 
+  * Merged with Debian
+    - Added epoch for Debian
+  * New upstream release 
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 16 Feb 2016 19:44:53 +0000
+
+ktp-contact-runner (15.12.1-2) experimental; urgency=medium
+
+  * Bump build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Feb 2016 21:05:14 +0100
+
+ktp-contact-runner (15.12.1-1) experimental; urgency=medium
+
+  [ Harald Sitter ]
+  * KDE Frameworks 5 port
+
+  [ Diane Trout ]
   * New upstream release
+  * Update libktpcommoninternalsprivate-dev build-dep to 0.8.80
+  * Change kde-telepathy-data dependency to source:Upstream-Version
+  * Update copyright file
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:24:20 +0000
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
+  * New upstream release (15.08.0).
+  * New upstream release (15.08.1).
+  * New upstream release (15.08.2).
+  * New upstream release (15.08.3).
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:25 +0100
+
+ktp-contact-runner (15.08.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Diane Trout <diane@ghic.org>  Wed, 02 Dec 2015 21:51:43 -0800
+
+ktp-contact-runner (15.08.2-1) unstable; urgency=medium
+
+  * Apply homepage update patch from Matthew Cope
+  * Update watch file for KTp's move to Applications.
+  * New upstream release.
+  * Update copyright file as the translations are shipped elsewhere,
+    and the cmake files were removed.
+  * Update build-depends to include extra-cmake-modules, qtbase5-dev,
+    libtelepathy-qt5-dev libtelepathy-logger-qt-dev, the renamed
+    libktp-dev and a few other kf5-dev packages.
+  * Update install paths for plasma-runner-telepathy-contact
+  * Use --fail-missing to make it easier to find not installed files.
+  * Use dhmk from pkg-kde-tools to build ktp.
+    - Change maintainer to debian-qt-kde
+    - Update debian/rules
+    - Update plugins path to qt5/plugins.
+  * Add KDE's unstable download url to watch file
+
+ -- Diane Trout <diane@ghic.org>  Sat, 07 Nov 2015 10:46:24 -0800
 
 ktp-contact-runner (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -43,21 +100,22 @@ ktp-contact-runner (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:29:27 +0200
 
+ktp-contact-runner (0.9.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update libktpcommoninternalsprivate-dev build-dep to 0.9.0
+  * Update copyright file
+  * Update Standards-Version to 3.9.6. No changes needed.
+  * Update debian/watch file to use http://download.kde.org
+
+ -- Diane Trout <diane@ghic.org>  Sat, 25 Apr 2015 19:54:21 -0700
+
 ktp-contact-runner (0.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Merge with Debian git, no changes
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 28 Oct 2014 13:14:01 +0100
-
-ktp-contact-runner (0.8.80-1) UNRELEASED; urgency=medium
-
-  * New upstream release
-  * Update libktpcommoninternalsprivate-dev build-dep to 0.8.80
-  * Change kde-telepathy-data dependency to source:Upstream-Version
-  * Update copyright file
-
- -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 15:43:34 -0700
 
 ktp-contact-runner (0.8.1-1) unstable; urgency=medium
 
