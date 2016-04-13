@@ -15,8 +15,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5service-dev,
                libkf5wallet-dev,
                libktp-dev (>= 15.12~),
-               libtelepathy-qt5-dev (>= 0.9.1),
                libtelepathy-logger-qt-dev,
+               libtelepathy-qt5-dev (>= 0.9.1),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
