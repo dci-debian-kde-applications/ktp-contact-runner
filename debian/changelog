@@ -1,16 +1,12 @@
-ktp-contact-runner (16.04.1-1~1.gbp109b67) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @109b67f6e1237c10ea3dadaa760b468830a65026 **
+ktp-contact-runner (16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
-  * UNRELEASED
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:47:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:49:25 +0200
 
 ktp-contact-runner (15.12.1-2) experimental; urgency=medium
 
