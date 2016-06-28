@@ -1,10 +1,8 @@
-ktp-contact-runner (16.04.2-1~1.gbp38a1f5) UNRELEASED; urgency=medium
+ktp-contact-runner (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @38a1f58527ce5f5bbe97d6344714ac093c93e18b **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:47:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 13:07:33 +0200
 
 ktp-contact-runner (16.04.1-1) experimental; urgency=medium
 
