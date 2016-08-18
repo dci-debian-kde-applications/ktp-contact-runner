@@ -1,10 +1,11 @@
-ktp-contact-runner (16.04.3-1~1.gbp12765a) UNRELEASED; urgency=medium
+ktp-contact-runner (16.08.0-1~1.gbp35c5b7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @12765ab276c5e6607bee102966556239a0b85374 **
+  ** SNAPSHOT build @35c5b741836d878465476b178b131638e665fda5 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:47:22 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:47:12 +0200
 
 ktp-contact-runner (16.04.2-1) experimental; urgency=medium
 
