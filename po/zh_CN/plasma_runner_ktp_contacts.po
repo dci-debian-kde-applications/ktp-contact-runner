@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-01-06 03:51+0100\n"
+"PO-Revision-Date: 2017-08-31 05:17-0400\n"
+"Last-Translator: guoyunhebrave <guoyunhebrave@gmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kdenetwork/plasma_runner_ktp_contacts."
+"pot\n"
+
+#: src/contactrunner.cpp:70
+#, kde-format
+msgid "Finds all IM contacts matching :q:."
+msgstr "找到所有匹配 :q: 的联系人。"
+
+#: src/contactrunner.cpp:71
+#, kde-format
+msgid ""
+"Finds all contacts matching :q: that are capable of text chats (default "
+"behavior)"
+msgstr "找到所有匹配 :q: 的可用文字聊天的联系人  (默认行为)"
+
+#: src/contactrunner.cpp:72
+#, kde-format
+msgid ""
+"Finds all contacts matching :q: that are capable of audio call and uses "
+"audio calls as default action."
+msgstr "找到所有匹配 :q: 的可以语音呼叫的联系人，并将语音呼叫作为默认行为"
+
+#: src/contactrunner.cpp:73
+#, kde-format
+msgid ""
+"Finds all contacts matching :q: that are capable of video call and uses "
+"video calls as default action."
+msgstr "找到所有匹配 :q: 的可以视频呼叫的联系人，并将视频呼叫作为默认行为"
+
+#: src/contactrunner.cpp:74
+#, kde-format
+msgid ""
+"Finds all contacts matching :q: that are capable of receiving files and "
+"sends file as default action."
+msgstr "找到所有匹配 :q: 的可以发送文件的联系人，并将发送文件作为默认行为"
+
+#: src/contactrunner.cpp:75
+#, kde-format
+msgid ""
+"Finds all contacts matching :q: that are capable of sharing desktop and sets "
+"desktop sharing as default action."
+msgstr "找到所有匹配 :q: 的可以共享桌面的联系人，并将共享桌面作为默认行为"
+
+#: src/contactrunner.cpp:78
+#, kde-format
+msgid "Open the log viewer for :q:"
+msgstr "打开 :q: 的日志"
+
+#: src/contactrunner.cpp:81 src/contactrunner.cpp:432
+#, kde-format
+msgctxt "A keyword to change IM status"
+msgid "im"
+msgstr "im"
+
+#: src/contactrunner.cpp:82 src/contactrunner.cpp:433
+#, kde-format
+msgctxt "A keyword to change IM status"
+msgid "status"
+msgstr "status"
+
+#: src/contactrunner.cpp:83
+#, kde-format
+msgid "Change IM status"
+msgstr "修改即时通讯状态"
+
+#: src/contactrunner.cpp:85 src/contactrunner.cpp:91
+#, kde-format
+msgctxt "Search term description"
+msgid "status"
+msgstr "status"
+
+#: src/contactrunner.cpp:88 src/contactrunner.cpp:90
+#, kde-format
+msgctxt "Description of a search term, please keep the brackets"
+msgid "<status message>"
+msgstr "<状态消息>"
+
+#: src/contactrunner.cpp:89
+#, kde-format
+msgid "Change IM status and set status message."
+msgstr "修改即时通讯状态并设置状态消息。"
+
+#: src/contactrunner.cpp:94 src/contactrunner.cpp:434
+#, kde-format
+msgctxt "A command to connect all IM accounts"
+msgid "connect"
+msgstr "connect"
+
+#: src/contactrunner.cpp:95
+#, kde-format
+msgid "Connect all IM accounts"
+msgstr "连接全部即时通讯账户"
+
+#: src/contactrunner.cpp:96 src/contactrunner.cpp:435
+#, kde-format
+msgctxt "A command to disconnect all IM accounts"
+msgid "disconnect"
+msgstr "disconnect"
+
+#: src/contactrunner.cpp:97
+#, kde-format
+msgid "Disconnect all IM accounts"
+msgstr "断开全部即时通讯账户"
+
+#: src/contactrunner.cpp:99
+#, kde-format
+msgid "Start Chat"
+msgstr "开始聊天"
+
+#: src/contactrunner.cpp:100
+#, kde-format
+msgid "Start Audio Call"
+msgstr "开始语音呼叫"
+
+#: src/contactrunner.cpp:101
+#, kde-format
+msgid "Start Video Call"
+msgstr "开始视频呼叫"
+
+#: src/contactrunner.cpp:102
+#, kde-format
+msgid "Send file(s)"
+msgstr "发送文件"
+
+#: src/contactrunner.cpp:103
+#, kde-format
+msgid "Share My Desktop"
+msgstr "共享我的桌面"
+
+#: src/contactrunner.cpp:106
+#, kde-format
+msgid "Open the log viewer"
+msgstr "打开日志查看器"
+
+#: src/contactrunner.cpp:255
+#, kde-format
+msgid "Choose files to send to %1"
+msgstr "选择要发送给 %1 的文件"
+
+#: src/contactrunner.cpp:475
+#, kde-format
+msgctxt "IM presence"
+msgid "online"
+msgstr "online"
+
+#: src/contactrunner.cpp:479
+#, kde-format
+msgctxt "IM presence"
+msgid "away"
+msgstr "away"
+
+#: src/contactrunner.cpp:483
+#, kde-format
+msgctxt "IM presence"
+msgid "busy"
+msgstr "busy"
+
+#: src/contactrunner.cpp:487
+#, kde-format
+msgctxt "IM presence"
+msgid "hidden"
+msgstr "hidden"
+
+#: src/contactrunner.cpp:491
+#, kde-format
+msgctxt "IM presence"
+msgid "offline"
+msgstr "offline"
+
+#: src/contactrunner.cpp:508
+#, kde-format
+msgctxt "Description of runner action"
+msgid "Set IM status to online"
+msgstr "将即时通讯状态设为在线"
+
+#: src/contactrunner.cpp:513
+#, kde-format
+msgctxt "Description of runner action"
+msgid "Set IM status to away"
+msgstr "将即时通讯状态设为离开"
+
+#: src/contactrunner.cpp:518
+#, kde-format
+msgctxt "Description of runner action"
+msgid "Set IM status to busy"
+msgstr "将即时通讯状态设为忙碌"
+
+#: src/contactrunner.cpp:523
+#, kde-format
+msgctxt "Description of runner action"
+msgid "Set IM status to hidden"
+msgstr "将即时通讯状态设为隐身"
+
+#: src/contactrunner.cpp:528
+#, kde-format
+msgctxt "Description of runner action"
+msgid "Set IM status to offline"
+msgstr "将即时通讯状态设为离线"
+
+#: src/contactrunner.cpp:535
+#, kde-format
+msgid "Status message: %1"
+msgstr "状态消息：%1"
