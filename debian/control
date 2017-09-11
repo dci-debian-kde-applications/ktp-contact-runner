@@ -29,6 +29,8 @@ Architecture: any
 Depends: kde-telepathy-data (>= ${source:Upstream-Version}),
          ${misc:Depends},
          ${shlibs:Depends},
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: kde-telepathy
 Description: Telepathy Contact KRunner plugin
  This package provides a KRunner plugin which allows you to execute actions
