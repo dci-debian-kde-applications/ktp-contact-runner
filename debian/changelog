@@ -1,15 +1,6 @@
 ktp-contact-runner (17.08.1-1~) UNRELEASED; urgency=medium
 
-  [ Maximiliano Curia ]
-  ** SNAPSHOT build @35a6f7640e89488d788dabf93b011facefb74f4d **
-
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * New upstream release (17.08.1).
-
-  [ Automatic packaging ]
-  * Update changelog for 16.08.1-1~1.gbp35a6f7 release
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 15:52:44 +0200
 
