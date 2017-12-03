@@ -1,11 +1,11 @@
 # Translation of plasma_runner_ktp_contacts.po into Serbian.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_runner_ktp_contacts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-01-06 03:51+0100\n"
-"PO-Revision-Date: 2012-08-17 21:54+0200\n"
+"PO-Revision-Date: 2017-09-28 18:00+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -100,7 +100,7 @@ msgstr "стање"
 #, kde-format
 msgctxt "Description of a search term, please keep the brackets"
 msgid "<status message>"
-msgstr "&lt;порука стања&gt;"
+msgstr "<порука стања>"
 
 #: src/contactrunner.cpp:89
 #, kde-format
